@@ -1,0 +1,51 @@
+My Research Frameworks
+
+I am an independent researcher working across philosophy, mathematics, physics, computer science, cognitive science, and systems architecture. My work is organized around a central question: How do distinctions arise, persist, transform, and become admissible within systems whose histories cannot simply be reversed?
+
+Rather than treating objects, identities, observations, and decisions as independently given, I investigate the constraints and processes through which they become distinguishable and operationally meaningful. Several interconnected frameworks have emerged from this research.
+
+RSVP: Relativistic Scalar-Vector-Entropy Plenum
+
+My RSVP framework is an attempt to develop a constraint-first account of physical reality using three interacting quantities: scalar capacity (\Phi), vector flow (\mathbf{v}), and entropy (S). Rather than beginning with particles moving through a pre-existing spacetime, I investigate how physical structure, motion, and temporal ordering might emerge from the dynamics of a continuous plenum.
+
+A central proposition is that time should be understood through irreversible transformation and entropy production, rather than assumed to be an independent background parameter. RSVP remains a theoretical research programme, with mathematical consistency, physical interpretation, and empirical adequacy requiring separate demonstrations.
+
+Spherepop Calculus and Spherepop OS
+
+Spherepop is my framework for understanding computation, identity, and agency through admissible state transitions and irreversible histories. Its principal operations include POP, REFUSE, BIND, TRANSFORM, VERIFY, and COLLAPSE.
+
+I treat identity as something established through a history of transformations rather than a static label. The computational architecture emphasizes append-only records, deterministic replay, explicit refusal, provenance, and verifiable commitments.
+
+Spherepop OS extends these principles into an operating-system architecture in which actions must satisfy specified constraints before becoming committed state. Its witness plane records evidence of transitions without confusing the record of an action with the action itself.
+
+MEM|8: Resonant Memory and Reconstruction
+
+MEM|8 is my experimental architecture for representing memory through compact, resonant state structures. It investigates how retrieval can emerge from phase relationships, interference, contextual constraints, and attractor dynamics rather than straightforward retrieval of stored representations.
+
+The framework includes an eight-byte memory-cell representation, phase addressing, interference gating, and observer-relative reconstruction. I am interested in memory as an active process in which present conditions participate in determining which aspects of a prior state become recoverable.
+
+This connects my computational experiments with broader questions about human recollection, forgetting, and the reconstruction of experience.
+
+CLIO, HYDRA, and TARTAN
+
+These frameworks address different aspects of coordinated computation.
+
+CLIO organizes operations through a structured sequence of hypothesis, derivation, action, witnessing, and commitment. HYDRA investigates scheduling and coordination among concurrent processes, while TARTAN develops a tiling-based architecture in which local states interact through constrained relationships and memory kernels.
+
+Together, they support my broader investigation of how local operations can produce globally coherent behavior without assuming that every component possesses a complete representation of the system.
+
+Admissibility and Irreversibility
+
+Admissibility is the unifying philosophical and mathematical concern of much of my work. I distinguish between what can be described, what can be constructed, what can be verified, and what can legitimately be committed as an action.
+
+I investigate agency through the selection of possible histories under constraints, especially where decisions produce consequences that cannot be completely undone.
+
+My work on the Reversibility Gate and the Latency of Evidence extends this approach to decisions under uncertainty. I distinguish the time at which evidence is observed, the time at which a claim becomes decidable, and the time at which action becomes justified. I also examine how the maturity of evidence and the reversibility of an intervention affect the conditions under which action should proceed.
+
+Distinction, Continuity, and Reconstruction
+
+Another major research direction concerns the difference between apparent continuity and demonstrable continuity.
+
+I investigate how systems preserve identity through change, how representations can conceal discontinuities, and why the existence of a plausible reconstruction does not establish the preservation of an original state.
+
+This work extends into model compression, machine learning, epistemology, software verification, and theories of consciousness.
