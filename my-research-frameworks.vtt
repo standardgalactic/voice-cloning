@@ -1,0 +1,164 @@
+WEBVTT
+
+00:00.000 --> 00:05.620
+My research frameworks. I am an independent researcher working across philosophy, mathematics,
+
+00:05.920 --> 00:11.720
+physics, computer science, cognitive science, and systems architecture. My work is organized
+
+00:11.720 --> 00:18.200
+around a central question. How do distinctions arise, persist, transform, and become admissible
+
+00:18.200 --> 00:24.320
+within systems whose histories cannot simply be reversed? Rather than treating objects, identities,
+
+00:24.320 --> 00:30.260
+observations, and decisions as independently given, I investigate the constraints and processes
+
+00:30.260 --> 00:35.760
+through which they become distinguishable and operationally meaningful. Several interconnected
+
+00:35.760 --> 00:42.680
+frameworks have emerged from this research. RSVP, Relativistic Scalar-Vector-Entropy Plenum.
+
+00:43.560 --> 00:48.520
+My RSVP framework is an attempt to develop a constraint-first account of physical reality
+
+00:48.520 --> 00:56.220
+using three interacting quantities, scalar capacity phi, vector flow v, and entropy
+
+00:56.220 --> 01:02.920
+self. Rather than beginning with particles moving through a pre-existing spacetime, I investigate
+
+01:02.920 --> 01:08.860
+how physical structure, motion, and temporal ordering might emerge from the dynamics of
+
+01:08.860 --> 01:14.280
+a continuous plenum. A central proposition is that time should be understood through irreversible
+
+01:14.280 --> 01:19.780
+transformation and entropy production, rather than assumed to be an independent background
+
+01:19.780 --> 01:27.300
+parameter. RSVP remains a theoretical research program, with mathematical consistency, physical
+
+01:27.300 --> 01:31.960
+interpretation, and empirical adequacy requiring separate demonstrations.
+
+01:32.760 --> 01:40.500
+Spherepop Calculus and Spherepop OS. Spherepop is my framework for understanding computation,
+
+01:40.500 --> 01:47.300
+identity, and agency through admissible state transitions and irreversible histories. Its principal
+
+01:47.300 --> 01:57.100
+operations include POP, REFUSE, BIND, TRANSFORM, VERIFY, and COLLAPSE. I treat identity as something
+
+01:57.100 --> 02:03.040
+established through a history of transformations rather than a static label. The computational
+
+02:03.040 --> 02:10.240
+architecture emphasizes append-only records, deterministic replay, explicit refusal, provenance,
+
+02:10.500 --> 02:16.960
+and verifiable commitments. Spherepop OS extends these principles into an operating system
+
+02:16.960 --> 02:22.620
+architecture, in which actions must satisfy specified constraints before becoming committed
+
+02:22.620 --> 02:29.300
+stake. Its witness plane records evidence of transitions, without confusing the record of an action with
+
+02:29.300 --> 02:31.300
+the action itself.
+
+02:31.300 --> 02:50.140
+It investigates how retrieval can emerge from phase relationships, interference, contextual constraints, and attractor
+
+02:50.140 --> 02:59.020
+dynamics, rather than straightforward retrieval of stored representations. The framework includes an eight-byte memory-cell
+
+02:59.020 --> 03:05.480
+representation, phase addressing, interference gating, and observer-relative reconstruction.
+
+03:05.480 --> 03:14.260
+I am interested in memory as an active process in which present conditions participate in determining which aspects of a prior state
+
+03:14.260 --> 03:21.420
+become recoverable. This connects my computational experiments with broader questions about human recollection,
+
+03:21.420 --> 03:24.880
+forgetting, and the reconstruction of experience.
+
+03:24.880 --> 03:36.220
+CLIO, HYDRA, and TARTAN. These frameworks address different aspects of coordinated computation. 
+
+03:36.220 --> 03:45.360
+CLIO organizes operations through a structured sequence of hypothesis, derivation, action, witnessing, and commitment.
+
+03:45.360 --> 03:53.620
+HYDRA investigates scheduling and coordination among concurrent processes, while TARTAN develops a tiling-based
+
+03:53.620 --> 03:59.300
+architecture in which local states interact through constrained relationships and memory kernels.
+
+04:00.420 --> 04:06.900
+Together, they support my broader investigation of how local operations can produce globally coherent behavior,
+
+04:07.460 --> 04:12.600
+without assuming that every component possesses a complete representation of the system.
+
+04:12.600 --> 04:16.240
+Admissibility and Irreversibility
+
+04:16.240 --> 04:22.560
+Admissibility is the unifying philosophical and mathematical concern of much of my work.
+
+04:23.300 --> 04:28.660
+I distinguish between what can be described, what can be constructed, what can be verified,
+
+04:29.240 --> 04:32.060
+and what can legitimately be committed as an action.
+
+04:33.020 --> 04:37.420
+I investigate agency through the selection of possible histories under constraints,
+
+04:37.900 --> 04:42.140
+especially where decisions produce consequences that cannot be completely undone.
+
+04:42.600 --> 04:48.560
+My work on the Reversibility Gate and the Latency of Evidence extends this approach to decisions under uncertainty.
+
+04:48.560 --> 04:54.840
+I distinguish the time at which evidence is observed, the time at which a claim becomes decidable,
+
+04:55.260 --> 04:57.740
+and the time at which action becomes justified.
+
+04:58.300 --> 05:02.960
+I also examine how the maturity of evidence and the reversibility of an intervention
+
+05:02.960 --> 05:06.500
+affect the conditions under which action should proceed.
+
+05:06.500 --> 05:10.820
+Distinction, Continuity, and Reconstruction
+
+05:10.820 --> 05:17.560
+Another major research direction concerns the difference between apparent continuity and demonstrable continuity.
+
+05:18.100 --> 05:21.940
+I investigate how systems preserve identity through change,
+
+05:22.300 --> 05:25.280
+how representations can conceal discontinuities,
+
+05:25.280 --> 05:31.740
+and why the existence of a plausible reconstruction does not establish the preservation of an original state.
+
+05:31.740 --> 05:38.580
+This work extends into model compression, machine learning, epistemology, software verification,
+
+05:39.180 --> 05:40.700
+and theories of consciousness.
+

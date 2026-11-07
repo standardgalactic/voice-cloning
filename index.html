@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>VOICE / RESEARCH FRAMEWORKS</title>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+:root{--green:#a1ffb0;--dim:#5d9869;--bg:#020a05;--edge:#245332;--red:#ff7b76}
+*{box-sizing:border-box}html,body{margin:0;min-height:100%;background:var(--bg);color:var(--green);font-family:'VT323','Courier New',monospace;font-size:21px}body{overflow:hidden}canvas{position:fixed;inset:0;width:100%;height:100%;display:block}#screen{z-index:0}#noise{z-index:1;pointer-events:none;opacity:.55}#scan{position:fixed;inset:0;pointer-events:none;z-index:2;background:repeating-linear-gradient(to bottom,transparent 0px,transparent 3px,#0008 4px,transparent 5px);mix-blend-mode:multiply}#vignette{position:fixed;inset:0;z-index:2;pointer-events:none;box-shadow:inset 0 0 16vw 5vw #000b}#flash{position:fixed;inset:0;z-index:3;pointer-events:none;background:#caffce;opacity:0;mix-blend-mode:screen}#interface{position:relative;z-index:4;display:flex;flex-direction:column;min-height:100dvh;padding:clamp(12px,2vw,28px);pointer-events:none}header,.panel,footer,#showControls{pointer-events:auto}header{display:flex;justify-content:space-between;align-items:start;gap:15px;letter-spacing:.1em;text-shadow:0 0 10px #2a8c42}header strong{font-weight:normal;font-size:clamp(25px,3vw,46px);line-height:.9}header small{display:block;color:var(--dim);font-size:17px;margin-top:9px}.right{text-align:right;font-size:17px;white-space:nowrap}#middle{flex:1;display:flex;align-items:center;justify-content:center;min-height:0;padding:clamp(18px,3vh,40px) 0 18vh}#caption{width:min(100%,1120px);min-height:2.4em;text-align:center;font-size:clamp(32px,4.1vw,62px);line-height:1.12;letter-spacing:.012em;text-shadow:0 0 8px #4cff7b;overflow-wrap:normal;transition:opacity .09s}#caption:empty:before{content:'AWAITING SIGNAL';color:#547e5a}footer{background:#021007e8;border:1px solid var(--edge);box-shadow:0 0 24px #062810aa;padding:12px 16px 10px;max-width:1200px;width:100%;margin:0 auto}#seek{width:100%;height:10px;accent-color:var(--green);cursor:pointer;margin:5px 0 11px}.controls{display:flex;flex-wrap:wrap;align-items:center;gap:10px 18px}.controls button,.controls select{background:#05170a;color:var(--green);border:1px solid #44794e;padding:4px 12px;font:inherit;cursor:pointer}.controls button:hover,.controls button:focus-visible{background:#173821}.controls label{display:flex;align-items:center;gap:7px;font-size:19px}.controls input[type=range]{width:95px;accent-color:var(--green)}#time{min-width:120px;font-variant-numeric:tabular-nums}#metrics{margin-left:auto;font-size:17px;color:var(--dim)}#status{font-size:16px;color:var(--dim);margin-top:8px;white-space:normal}button:focus-visible,input:focus-visible{outline:2px solid white;outline-offset:3px}#showControls{position:fixed;right:clamp(12px,2vw,28px);bottom:clamp(12px,2vw,28px);z-index:6;background:#05170a;color:var(--green);border:1px solid #44794e;padding:5px 13px;font:inherit;cursor:pointer;display:none}body.controls-hidden footer{display:none}body.controls-hidden #showControls{display:block}@media(max-width:700px){#metrics{width:100%;margin-left:0}.right{font-size:14px}#caption{font-size:clamp(23px,5vw,34px)}footer{padding:9px}.controls{gap:7px 12px}#middle{padding:10px 0 15vh}}@media(prefers-reduced-motion:reduce){#noise,#flash{display:none}#scan{opacity:.25}}
+</style>
+</head>
+<body>
+<canvas id="screen" aria-hidden="true"></canvas><canvas id="noise" aria-hidden="true"></canvas><div id="scan"></div><div id="vignette"></div><div id="flash"></div>
+<div id="interface">
+<header><div><strong>VOICE / RESEARCH FRAMEWORKS</strong><small>FLYXION · SYNTHETIC NARRATION · PHOSPHOR TERMINAL</small></div><div class="right">SIGNAL <span id="signal">IDLE</span><div>MODE <span id="mode">ENTROPIC</span></div></div></header>
+<div id="middle"><div id="caption" aria-live="off"></div></div>
+<footer>
+<input id="seek" type="range" min="0" max="1000" value="0" aria-label="Seek audio">
+<div class="controls">
+<button id="play" type="button">▶ PLAY</button><button id="mute" type="button">SOUND ON</button><span id="time">00:00 / 00:00</span>
+<label>GAIN <input id="volume" type="range" min="0" max="1" step="0.01" value="0.85"></label>
+<label>GLITCH <input id="intensity" type="range" min="0" max="3" step="0.05" value="0.65"></label>
+<label>FLASH <input id="flashes" type="checkbox"></label>
+<button id="fullscreen" type="button">⛶ FULL</button><button id="hideControls" type="button">HIDE CONTROLS</button>
+<span id="metrics">H 0.000 · RMS 0.000 · Δ 0.000</span>
+</div>
+
+<div id="status">READY · PLAY TO ACTIVATE AUDIO ANALYSIS · PRESS SPACE TO PAUSE</div>
+</footer>
+</div>
+<button id="showControls" type="button" aria-label="Show playback controls">SHOW CONTROLS</button>
+<audio id="audio" preload="metadata" src="my-research-frameworks.mp3"></audio>
+<script>
+(()=>{'use strict';
+const $=id=>document.getElementById(id), audio=$('audio'),c=$('screen'),ctx=c.getContext('2d',{alpha:false}),n=$('noise'),nx=n.getContext('2d'),cap=$('caption'),seek=$('seek');
+const reduce=matchMedia('(prefers-reduced-motion: reduce)').matches;
+let W=0,H=0,dpr=1,ac=null,analyser=null,freq=null,wave=null,previous=null,cues=[],lastCaption=-1,entropy=0,rms=0,flux=0,staccato=0,prevRms=0,lastTime=0,lastFrame=performance.now(),frame=0,flashLevel=0,playing=false,dragging=false,subReady=false;
+function resize(){dpr=Math.min(devicePixelRatio||1,2);W=innerWidth;H=innerHeight;for(const el of [c,n]){el.width=Math.round(W*dpr);el.height=Math.round(H*dpr)}ctx.setTransform(dpr,0,0,dpr,0,0);nx.setTransform(dpr,0,0,dpr,0,0)}addEventListener('resize',resize);resize();
+function timefmt(t){if(!Number.isFinite(t))return '00:00';t=Math.floor(t);return String(Math.floor(t/60)).padStart(2,'0')+':'+String(t%60).padStart(2,'0')}
+function ts(s){const p=s.replace(',','.').trim().split(':').map(Number);if(p.some(x=>!Number.isFinite(x)))return NaN;return p.reduce((a,b)=>a*60+b,0)}
+function parseVtt(input){const blocks=input.replace(/^\uFEFF/,'').replace(/\r/g,'').split(/\n\s*\n/);const out=[];for(const block of blocks){const lines=block.trim().split('\n');const k=lines.findIndex(x=>x.includes('-->'));if(k<0)continue;const times=lines[k].split('-->');const start=ts(times[0]),end=ts(times[1].trim().split(/\s+/)[0]);if(!Number.isFinite(start)||!Number.isFinite(end))continue;const text=lines.slice(k+1).join(' ').replace(/<[^>]*>/g,'').replace(/&amp;/g,'&').replace(/&lt;/g,'<').replace(/&gt;/g,'>').trim();out.push({start,end,text})}return out.sort((a,b)=>a.start-b.start)}
+function subtitle(t){let lo=0,hi=cues.length-1,idx=-1;while(lo<=hi){const mid=(lo+hi)>>1;if(cues[mid].start<=t){idx=mid;lo=mid+1}else hi=mid-1}const chosen=idx>=0&&t<cues[idx].end?idx:-1;if(chosen!==lastCaption){cap.textContent=chosen<0?'':cues[chosen].text;lastCaption=chosen}}
+async function getVtt(){try{const r=await fetch('my-research-frameworks.vtt',{cache:'no-store'});if(!r.ok)throw Error('HTTP '+r.status);cues=parseVtt(await r.text());subReady=true;$('status').textContent='SUBTITLES LOADED · '+cues.length+' CUES · READY';}catch(e){$('status').textContent='VTT NOT LOADED · RUN A LOCAL SERVER (python3 -m http.server 8000)'}}getVtt();
+function initAudio(){if(ac)return;ac=new (window.AudioContext||window.webkitAudioContext)();analyser=ac.createAnalyser();analyser.fftSize=2048;analyser.smoothingTimeConstant=.58;freq=new Uint8Array(analyser.frequencyBinCount);wave=new Uint8Array(analyser.fftSize);previous=new Float32Array(freq.length);const source=ac.createMediaElementSource(audio);source.connect(analyser);analyser.connect(ac.destination)}
+async function toggle(){try{initAudio();if(ac.state==='suspended')await ac.resume();if(audio.paused)await audio.play();else audio.pause()}catch(e){$('status').textContent='PLAYBACK ERROR: '+e.message+' · TRY A LOCAL SERVER'}}
+$('play').onclick=toggle;audio.addEventListener('play',()=>{playing=true;$('play').textContent='Ⅱ PAUSE';$('signal').textContent='LIVE'});audio.addEventListener('pause',()=>{playing=false;$('play').textContent='▶ PLAY';$('signal').textContent='HOLD'});audio.addEventListener('ended',()=>{$('signal').textContent='END'});
+$('volume').oninput=e=>{audio.volume=Number(e.target.value);$('mute').textContent=audio.muted?'SOUND OFF':'SOUND ON'};audio.volume=.85;
+$('mute').onclick=()=>{audio.muted=!audio.muted;$('mute').textContent=audio.muted?'SOUND OFF':'SOUND ON'};
+$('fullscreen').onclick=()=>{if(document.fullscreenElement)document.exitFullscreen();else document.documentElement.requestFullscreen?.()};
+function setControlsHidden(hidden){document.body.classList.toggle('controls-hidden',hidden);$('hideControls').setAttribute('aria-expanded',String(!hidden));$('showControls').setAttribute('aria-expanded',String(!hidden))}
+$('hideControls').onclick=()=>setControlsHidden(true);
+$('showControls').onclick=()=>setControlsHidden(false);
+seek.addEventListener('pointerdown',()=>dragging=true);seek.addEventListener('pointerup',()=>dragging=false);seek.oninput=()=>{if(Number.isFinite(audio.duration))audio.currentTime=audio.duration*Number(seek.value)/1000};audio.addEventListener('seeked',()=>{lastTime=audio.currentTime;entropy=Math.max(0,entropy*.7);previous?.fill(0);lastCaption=-1;subtitle(audio.currentTime)});
+addEventListener('keydown',e=>{if(e.code==='Escape'&&document.body.classList.contains('controls-hidden')){setControlsHidden(false)}else if(e.code==='KeyH'&&!['INPUT','TEXTAREA'].includes(document.activeElement?.tagName)){setControlsHidden(!document.body.classList.contains('controls-hidden'))}else if(e.code==='Space'&&!['INPUT','BUTTON','SELECT','TEXTAREA'].includes(document.activeElement?.tagName)){e.preventDefault();toggle()}else if(e.code==='ArrowRight'&&!['INPUT'].includes(document.activeElement?.tagName)){audio.currentTime=Math.min(audio.duration||0,audio.currentTime+5)}else if(e.code==='ArrowLeft'&&!['INPUT'].includes(document.activeElement?.tagName)){audio.currentTime=Math.max(0,audio.currentTime-5)}});
+function rand(a,b){return a+Math.random()*(b-a)}
+function measure(dt){if(!analyser||audio.paused){rms*=.93;flux*=.9;staccato*=.92;return}analyser.getByteFrequencyData(freq);analyser.getByteTimeDomainData(wave);let sum=0;for(let i=0;i<wave.length;i++){const v=(wave[i]-128)/128;sum+=v*v}rms=Math.sqrt(sum/wave.length);let total=0,diff=0,weight=0;for(let i=2;i<freq.length*.8;i++){const x=freq[i]/255;total+=x;const change=Math.max(0,x-previous[i]);diff+=change;weight+=-x*Math.log2(x+1e-9);previous[i]=x}flux=flux*.65+(diff/(freq.length*.8))*.35;const attack=Math.max(0,rms-prevRms);staccato=staccato*.76+Math.min(1,attack*10+flux*5)*.24;prevRms=rms;const spectralEntropy=total>0?Math.min(1,weight/(freq.length*.8)*1.7):0;const growth=(spectralEntropy*.22+rms*.5+flux*2+staccato*.25)*Math.min(dt,.07);entropy=Math.min(1000,entropy+growth)}
+function draw(t,dt){
+ const intensity=Number($('intensity').value);
+ const power=Math.min(1,rms*3+staccato*.7+flux*5);
+ const chaos=Math.min(1,(Math.log1p(entropy)/6)*.3+power*.75)*intensity;
+ ctx.fillStyle='#020a05';ctx.fillRect(0,0,W,H);
+ // Sparse, restrained phosphor grid. The caption occupies the clear upper field.
+ ctx.strokeStyle='rgba(60,150,76,.055)';ctx.lineWidth=1;
+ for(let x=0;x<W;x+=64){ctx.beginPath();ctx.moveTo(x,0);ctx.lineTo(x,H);ctx.stroke()}
+ for(let y=0;y<H;y+=64){ctx.beginPath();ctx.moveTo(0,y);ctx.lineTo(W,y);ctx.stroke()}
+ // Low block spectrum: no central waveform, circles, or scrolling telemetry.
+ const bins=Math.max(32,Math.min(110,Math.floor(W/12)));
+ const barW=W/bins, baseline=H*.81, maxHeight=Math.min(H*.26,210);
+ for(let i=0;i<bins;i++){
+   const k=Math.floor((i/bins)**1.8*(freq?.length||1024)*.8);
+   const v=freq?freq[k]/255:0;
+   const bh=Math.max(2,v*v*maxHeight);
+   ctx.fillStyle=`rgba(91,255,126,${.12+v*.6})`;
+   ctx.fillRect(i*barW+1,baseline-bh,Math.max(2,barW-3),bh);
+ }
+ ctx.fillStyle='rgba(85,175,104,.20)';ctx.fillRect(0,baseline+3,W,1);
+ // Rare restrained tearing, concentrated below the subtitle region.
+ if(!reduce&&chaos>.18){
+   const strips=Math.floor(chaos*5);
+   for(let i=0;i<strips;i++){
+     if(Math.random()>.09+chaos*.18)continue;
+     const y=rand(H*.65,H*.88),hh=rand(1,9);
+     ctx.fillStyle=`rgba(138,255,156,${rand(.025,.1)*chaos})`;
+     ctx.fillRect(rand(0,W*.7),y,rand(W*.08,W*.35),hh);
+   }
+ }
+ if(!reduce&&frame%4===0){
+   nx.clearRect(0,0,W,H);
+   const count=Math.floor(8+chaos*55);
+   for(let i=0;i<count;i++){
+     nx.fillStyle=`rgba(135,255,160,${rand(.015,.065)*Math.min(2,chaos)})`;
+     nx.fillRect(rand(0,W),rand(H*.58,H*.9),rand(1,5),rand(1,2));
+   }
+ }
+ if(!reduce&&$('flashes').checked&&chaos>.3&&Math.random()<Math.min(.02,chaos*.006))flashLevel=Math.min(.16,chaos*.07);
+ flashLevel*=.7;$('flash').style.opacity=String(reduce?0:flashLevel);
+}
+function loop(now){const dt=Math.min(.1,(now-lastFrame)/1000);lastFrame=now;frame++;measure(dt);draw(now,dt);const tm=audio.currentTime||0;subtitle(tm);if(!dragging&&Number.isFinite(audio.duration)&&audio.duration>0)seek.value=Math.round(tm/audio.duration*1000);$('time').textContent=timefmt(tm)+' / '+timefmt(audio.duration);if(frame%8===0){$('metrics').textContent=`H ${entropy.toFixed(3)} · RMS ${rms.toFixed(3)} · Δ ${staccato.toFixed(3)}`;$('mode').textContent=entropy>8?'CASCADE':entropy>3?'UNSTABLE':'ENTROPIC'}requestAnimationFrame(loop)}requestAnimationFrame(loop);
+})();
+</script>
+</body></html>
+
