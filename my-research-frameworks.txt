@@ -20,15 +20,16 @@ established through a history of transformations rather than a static label. The
 architecture emphasizes append-only records, deterministic replay, explicit refusal, provenance,
 and verifiable commitments. Spherepop OS extends these principles into an operating system
 architecture, in which actions must satisfy specified constraints before becoming committed
-stake. Its witness plane records evidence of transitions, without confusing the record of an action with
+state. Its witness plane records evidence of transitions, without confusing the record of an action with
 the action itself.
+MEM8, Resonant Memory and Reconstruction. MEM8 is my experimental architecture for for representing memory through compact, resonant state structures.
 It investigates how retrieval can emerge from phase relationships, interference, contextual constraints, and attractor
 dynamics, rather than straightforward retrieval of stored representations. The framework includes an eight-byte memory-cell
 representation, phase addressing, interference gating, and observer-relative reconstruction.
 I am interested in memory as an active process in which present conditions participate in determining which aspects of a prior state
 become recoverable. This connects my computational experiments with broader questions about human recollection,
 forgetting, and the reconstruction of experience.
-CLIO, HYDRA, and TARTAN. These frameworks address different aspects of coordinated computation. 
+CLIO, HYDRA, and TARTAN. These frameworks address different aspects of coordinated computation. I know this as of how much
 CLIO organizes operations through a structured sequence of hypothesis, derivation, action, witnessing, and commitment.
 HYDRA investigates scheduling and coordination among concurrent processes, while TARTAN develops a tiling-based
 architecture in which local states interact through constrained relationships and memory kernels.

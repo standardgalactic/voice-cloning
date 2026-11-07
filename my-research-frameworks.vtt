@@ -67,12 +67,15 @@ and verifiable commitments. Spherepop OS extends these principles into an operat
 architecture, in which actions must satisfy specified constraints before becoming committed
 
 02:22.620 --> 02:29.300
-stake. Its witness plane records evidence of transitions, without confusing the record of an action with
+state. Its witness plane records evidence of transitions, without confusing the record of an action with
 
 02:29.300 --> 02:31.300
 the action itself.
 
-02:31.300 --> 02:50.140
+02:31.300 --> 02:41.600
+MEM8, Resonant Memory and Reconstruction. MEM8 is my experimental architecture for for representing memory through compact, resonant state structures.
+
+02:42.600 --> 02:50.140
 It investigates how retrieval can emerge from phase relationships, interference, contextual constraints, and attractor
 
 02:50.140 --> 02:59.020
@@ -90,8 +93,11 @@ become recoverable. This connects my computational experiments with broader ques
 03:21.420 --> 03:24.880
 forgetting, and the reconstruction of experience.
 
-03:24.880 --> 03:36.220
-CLIO, HYDRA, and TARTAN. These frameworks address different aspects of coordinated computation. 
+03:24.880 --> 03:34.000
+CLIO, HYDRA, and TARTAN. These frameworks address different aspects of coordinated computation.
+
+03:34.140 --> 03:36.120
+I know this as of how much
 
 03:36.220 --> 03:45.360
 CLIO organizes operations through a structured sequence of hypothesis, derivation, action, witnessing, and commitment.

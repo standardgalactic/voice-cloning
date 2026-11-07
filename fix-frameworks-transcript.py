@@ -25,7 +25,6 @@ fixes = [
     (r'\bcommitted stake\b', 'committed state'),
     (r'\b8-byte memory cell\b', 'eight-byte memory-cell'),
     (r'\bforgetting, forgetting,', 'forgetting,'),
-    (r'\bI know this as of how much[ 	]*', ''),
     (r'\binteract to constrain relationships\b', 'interact through constrained relationships'),
     (r'\bthe reversibility gate\b', 'the Reversibility Gate'),
     (r'\bthe latency of evidence\b', 'the Latency of Evidence'),
