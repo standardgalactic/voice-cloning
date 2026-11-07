@@ -1,0 +1,42 @@
+
+================================================================
+Flyxion correction run - 2026-11-07 20:27:01
+Backup snapshot: backup_20261107_202701
+================================================================
+
+[substitution] ./Why_Reality_Has_No_Undo_Button.vtt
+  L139: It's by the independent researcher Flycon, and it's titled Distinction Under Constraint.
+  L967: And Phlyxion is taking this unbreakable link between logical irreversibility and physical irreversibility and scaling it up to the entire cosmos.
+  (2 line(s) changed)
+
+[substitution] ./Why_Reality_Has_No_Undo_Button.txt
+  L46: It's by the independent researcher Flycon, and it's titled Distinction Under Constraint.
+  L322: And Phlyxion is taking this unbreakable link between logical irreversibility and physical irreversibility and scaling it up to the entire cosmos.
+  (2 line(s) changed)
+
+[substitution] ./Why_Reality_Has_No_Undo_Button.srt
+  L183: It's by the independent researcher Flycon, and it's titled Distinction Under Constraint.
+  L1287: And Phlyxion is taking this unbreakable link between logical irreversibility and physical irreversibility and scaling it up to the entire cosmos.
+  (2 line(s) changed)
+
+[substitution] ./Why_Reality_Has_No_Undo_Button.json
+  L1: [JSON content omitted]
+  (1 line(s) changed)
+
+[substitution] ./Why_Reality_Has_No_Undo_Button.tsv
+  L47: 166120	171300	It's by the independent researcher Flycon, and it's titled Distinction Under Constraint.
+  L323: 1003080	1011740	And Phlyxion is taking this unbreakable link between logical irreversibility and physical irreversibility and scaling it up to the entire cosmos.
+  (2 line(s) changed)
+
+==== Candidate Variants (none found) ====
+
+==== Summary ====
+Files scanned        : 5
+Files updated        : 5
+Files unchanged      : 0
+Unique candidates    : 0
+Elapsed time         : 21s
+
+================================================================
+Run complete at 2026-11-07 20:27:22
+================================================================

@@ -1,0 +1,2723 @@
+WEBVTT
+
+00:00.000 --> 00:04.840
+Imagine for a second that you are typing out an incredibly furious email to your boss.
+
+00:05.540 --> 00:07.780
+Oh man, the worst idea.
+
+00:08.140 --> 00:10.200
+Right? I'm talking about a real bridge burner.
+
+00:10.620 --> 00:10.820
+Yeah.
+
+00:11.360 --> 00:17.780
+You hit the send button, but in a sudden blinding flash of panic, a fraction of a millisecond later,
+
+00:18.000 --> 00:20.580
+you physically rip the power cord out of the wall.
+
+00:20.920 --> 00:22.080
+Just total desperation.
+
+00:22.400 --> 00:27.460
+Exactly. The screen goes completely black, the fans spin down, the room is silent.
+
+00:27.460 --> 00:31.700
+Now, here is the million dollar question for you.
+
+00:32.800 --> 00:34.280
+Did that email send?
+
+00:34.880 --> 00:35.420
+Or are you fired?
+
+00:35.960 --> 00:39.060
+Yes. Or are you fired? Or did you manage to stop it in time?
+
+00:39.680 --> 00:42.760
+Well, it's the ultimate Schrodinger's employment situation.
+
+00:43.260 --> 00:48.620
+You don't actually know the state of your reality until you plug that machine back in and check the sent folder.
+
+00:48.620 --> 00:56.000
+Right. And the answer to that question relies entirely on a concept that we interact with every single day,
+
+00:56.000 --> 01:00.320
+usually without ever really thinking about it. Irreversibility.
+
+01:00.960 --> 01:06.340
+Yeah. It's the fundamental physics of the undo button, or really the lack of one.
+
+01:06.800 --> 01:12.040
+Exactly. When a system makes a permanent choice, like a choice that alters history,
+
+01:12.840 --> 01:16.660
+at what exact microsecond does that choice become real?
+
+01:16.660 --> 01:21.980
+It's fascinating because we usually expect reality to operate with, like, the precision of a medical x-ray.
+
+01:22.200 --> 01:22.300
+Right.
+
+01:22.420 --> 01:27.220
+You know, you break an arm, the x-ray shows a clean, jagged white line, and a doctor can point to it and say,
+
+01:27.320 --> 01:31.680
+well, there it is. That is the historical event. This bone was whole, and now it is broken.
+
+01:31.980 --> 01:34.360
+We want that binary diagnostic clarity.
+
+01:34.640 --> 01:35.780
+Exactly. We crave it.
+
+01:35.780 --> 01:41.140
+But we want to be able to look at the universe, or a computer, or a human brain,
+
+01:41.380 --> 01:45.280
+and see a perfect, unblemished record of exactly what happened to it.
+
+01:45.440 --> 01:48.780
+But the reality is that the universe doesn't always keep the receipts.
+
+01:49.000 --> 01:49.980
+No, it really doesn't.
+
+01:50.260 --> 01:54.440
+Once you step out of the realm of, like, simple physics and into the world of complex systems,
+
+01:54.560 --> 01:59.440
+whether we're talking about the flow of time itself, the architecture of global computer networks,
+
+01:59.440 --> 02:04.760
+or even just your own fragile, reconstructive memory, that x-ray machine is utterly useless.
+
+02:04.760 --> 02:06.400
+Yeah, it completely breaks down.
+
+02:06.680 --> 02:08.780
+The diagnostic landscape just becomes murky.
+
+02:09.480 --> 02:12.440
+Because you can't always just look at a system and read its history like an open book.
+
+02:12.720 --> 02:16.780
+It is the absolute definition of diagnostic muddy waters.
+
+02:17.300 --> 02:22.400
+And, you know, the core reason for that murkiness is that making a permanent mark on reality,
+
+02:22.680 --> 02:27.060
+what we might call committing a state to history, it actually costs something.
+
+02:27.380 --> 02:29.660
+You can't hit an undo button on reality for free.
+
+02:29.940 --> 02:30.420
+Precisely.
+
+02:31.220 --> 02:34.440
+Which brings us perfectly to our mission for this deep dive.
+
+02:34.760 --> 02:36.860
+And welcome, by the way, to everyone listening.
+
+02:37.720 --> 02:43.820
+Today, you and I are exploring a dense, fascinating, and honestly mind-bending monograph from November 2026.
+
+02:44.060 --> 02:45.080
+Such a good piece of work.
+
+02:45.300 --> 02:46.040
+It really is.
+
+02:46.120 --> 02:51.300
+It's by the independent researcher Flyxion, and it's titled Distinction Under Constraint.
+
+02:51.440 --> 02:53.200
+Distinction Under Constraint.
+
+02:53.200 --> 02:53.640
+Yeah.
+
+02:53.960 --> 02:56.180
+And it asks a massive fundamental question.
+
+02:56.920 --> 03:06.620
+How do distinct things, you know, objects, identities, decisions, memories, how do they arise and persist in a universe where you literally cannot take anything back?
+
+03:06.620 --> 03:08.920
+It is an incredibly ambitious text.
+
+03:09.060 --> 03:14.260
+I mean, it spans theoretical physics, computer science, cognitive psychology, and decision theory.
+
+03:14.580 --> 03:15.780
+It's all over the map.
+
+03:15.940 --> 03:16.440
+It is.
+
+03:16.560 --> 03:25.300
+But the brilliance of it is that the underlying math, the actual mechanics of irreversibility, they are exactly the same across every single one of those disciplines.
+
+03:25.300 --> 03:26.660
+Which is wild to think about.
+
+03:26.820 --> 03:27.260
+Which, yeah.
+
+03:28.000 --> 03:34.580
+Whether you are trying to understand why time only moves forward, or whether you're designing a foolproof operating system.
+
+03:34.780 --> 03:35.040
+Right.
+
+03:35.380 --> 03:41.600
+Or wondering why you misremembered your own childhood, or just trying to make a high-stakes life decision with terrible information.
+
+03:42.260 --> 03:43.280
+The mechanics are identical.
+
+03:43.500 --> 03:45.520
+It all comes back to the exact same math.
+
+03:45.700 --> 03:45.920
+Okay.
+
+03:46.180 --> 03:47.080
+Let's unpack this.
+
+03:47.080 --> 03:51.520
+Because before we can talk about the cosmos, or the human mind, we have to lay the groundwork.
+
+03:51.660 --> 03:51.820
+Yeah.
+
+03:51.940 --> 03:52.860
+We have to start at the bottom.
+
+03:53.320 --> 03:58.320
+We have to define what it actually means to make a distinction or a commitment in a world with no takebacks.
+
+03:59.340 --> 04:03.480
+So, what is a distinction, according to this research?
+
+04:03.920 --> 04:10.100
+Well, the author defines a distinction quite elegantly as a difference that makes a difference.
+
+04:10.620 --> 04:12.020
+A difference that makes a difference.
+
+04:12.020 --> 04:12.380
+Right.
+
+04:12.560 --> 04:16.820
+I know that sounds a bit like a circular riddle at first, but it's vital.
+
+04:17.080 --> 04:24.100
+We tend to walk around assuming that objects and identities are just, you know, natively there.
+
+04:24.480 --> 04:24.800
+Right.
+
+04:24.860 --> 04:28.100
+Like the universe is basically a giant bucket filled with distinct things.
+
+04:28.260 --> 04:30.460
+Planets, chairs, people, atoms.
+
+04:30.960 --> 04:33.100
+Just sitting there waiting for us to observe them.
+
+04:33.520 --> 04:36.280
+But the text aggressively rejects that presupposition.
+
+04:36.980 --> 04:40.460
+Instead, it treats objects and identities as outcomes.
+
+04:40.900 --> 04:41.300
+Outcomes.
+
+04:41.600 --> 04:41.800
+Yeah.
+
+04:42.120 --> 04:42.880
+They are achievements.
+
+04:43.700 --> 04:45.580
+So things aren't just naturally distinct.
+
+04:45.960 --> 04:46.400
+Not at all.
+
+04:46.400 --> 04:47.580
+So think about it this way.
+
+04:47.940 --> 04:54.180
+In a purely theoretical, perfectly reversible system, you could draw a boundary between two things.
+
+04:54.500 --> 04:56.580
+Decide you don't like how it looks and just erase it.
+
+04:57.040 --> 04:57.920
+It costs you nothing.
+
+04:58.140 --> 04:58.820
+It leaves no trace.
+
+04:59.020 --> 05:01.540
+But we do not live in a reversible system.
+
+05:01.640 --> 05:01.760
+Right.
+
+05:02.160 --> 05:05.440
+In an irreversible system, trying something leaves a mark.
+
+05:06.180 --> 05:08.480
+Drawing a boundary actually spends physical resources.
+
+05:08.620 --> 05:09.420
+It generates heat.
+
+05:09.820 --> 05:11.120
+It alters the state of the board.
+
+05:11.120 --> 05:15.480
+The act of separating this from that becomes a permanent historical event.
+
+05:16.300 --> 05:18.840
+So a distinction is basically a scar.
+
+05:18.840 --> 05:19.740
+Oh, wow.
+
+05:20.100 --> 05:20.240
+Yeah.
+
+05:20.380 --> 05:24.060
+You've carved a line into reality, and now reality has to carry that line forward forever.
+
+05:24.500 --> 05:28.560
+That is a very visceral way to put it, but it's conceptually entirely accurate.
+
+05:28.560 --> 05:35.420
+And this leads to the core methodology of the entire paper, which is called the constraint-first stance.
+
+05:36.020 --> 05:37.420
+The constraint-first stance.
+
+05:37.600 --> 05:37.760
+Right.
+
+05:38.100 --> 05:41.680
+It's a fundamental shift in how we try to understand complex systems.
+
+05:42.300 --> 05:50.040
+Instead of asking what a system is or what it's made of, you figure out its fundamental structure by rigorously defining what it is not permitted to do.
+
+05:50.040 --> 05:52.260
+Okay, that makes me think of thermodynamics.
+
+05:52.820 --> 05:53.220
+Exactly.
+
+05:53.720 --> 06:00.300
+Because the laws of thermodynamics don't really give you a microscopic description of what a cloud of gas is doing at any given moment.
+
+06:00.380 --> 06:00.920
+No, they don't.
+
+06:01.320 --> 06:03.900
+They just lay down these hard, unbreakable rules.
+
+06:04.040 --> 06:09.080
+They tell you, hey, I don't care what kind of machine you invent, you cannot build a perpetual motion device.
+
+06:09.160 --> 06:09.340
+Right.
+
+06:09.520 --> 06:12.360
+And you cannot decrease the total entropy in a closed system.
+
+06:12.520 --> 06:15.980
+What's fascinating here is that thermodynamics is the perfect parallel.
+
+06:16.660 --> 06:18.600
+The constraints generate the structure.
+
+06:18.600 --> 06:22.440
+And we see the exact same thing in computer programming with type systems.
+
+06:22.780 --> 06:22.980
+Oh, really?
+
+06:23.240 --> 06:23.420
+Yeah.
+
+06:23.860 --> 06:26.900
+A type system doesn't tell a program what logic to execute.
+
+06:27.140 --> 06:32.480
+It simply dictates which expressions are absolutely forbidden from ever being formed.
+
+06:32.620 --> 06:34.320
+It walls off the impossible.
+
+06:34.700 --> 06:34.980
+I see.
+
+06:35.200 --> 06:44.480
+So if we apply this constraint-first view to the idea of making a distinction, you know, leaving that scar on reality, we arrive at the concept of admissibility.
+
+06:44.900 --> 06:45.460
+Admissibility.
+
+06:45.700 --> 06:45.900
+Right.
+
+06:45.900 --> 06:50.980
+If history cannot be undone, what are you actually licensed to commit to that history?
+
+06:51.900 --> 06:56.300
+And to figure that out, the paper breaks down availability into these four distinct tiers.
+
+06:56.540 --> 06:56.800
+Yes.
+
+06:56.980 --> 07:01.140
+And I want to spend some time here because this is the backbone of everything we're going to talk about today.
+
+07:01.840 --> 07:07.060
+The four hurdles a potential action has to clear before it is allowed to become a permanent record.
+
+07:07.060 --> 07:09.480
+It's essentially a rigorous filtration system.
+
+07:09.680 --> 07:09.900
+Right.
+
+07:10.220 --> 07:11.200
+Walk us through these tiers.
+
+07:11.400 --> 07:12.020
+What's the first one?
+
+07:12.300 --> 07:17.040
+The foundation, the absolute lowest bar, is that a thing is describable.
+
+07:17.720 --> 07:18.240
+Describable.
+
+07:18.380 --> 07:18.540
+Yeah.
+
+07:18.880 --> 07:23.900
+This just means it is a well-formed expression in whatever language or logic system you're using.
+
+07:24.020 --> 07:25.720
+So it's grammatically correct.
+
+07:25.720 --> 07:26.160
+Okay.
+
+07:26.520 --> 07:28.900
+But grammatically correct doesn't mean real.
+
+07:29.220 --> 07:30.220
+No, not at all.
+
+07:30.340 --> 07:33.760
+Like I can describe a square circle or a married bachelor.
+
+07:34.300 --> 07:38.400
+The words fit together perfectly, but they point to an impossible physical reality.
+
+07:38.640 --> 07:39.120
+Precisely.
+
+07:39.500 --> 07:42.700
+Which is why we need the second tier, which is constructible.
+
+07:43.660 --> 07:44.100
+Constructible.
+
+07:44.100 --> 07:45.920
+So we're moving from words to actions.
+
+07:46.360 --> 07:46.680
+Exactly.
+
+07:47.320 --> 07:48.500
+It's a significant step up.
+
+07:49.000 --> 07:55.200
+For something to be constructible, a tangible step-by-step procedure must actually exist to make the thing,
+
+07:55.720 --> 08:00.040
+using the physical or computational resources the system currently possesses.
+
+08:00.180 --> 08:01.880
+So you aren't just describing it.
+
+08:02.040 --> 08:02.280
+Right.
+
+08:02.460 --> 08:05.640
+You can actually build a machine to find it or create it.
+
+08:05.960 --> 08:06.260
+Okay.
+
+08:06.420 --> 08:07.340
+Let me make sure I'm following.
+
+08:08.280 --> 08:10.760
+Let's say I have a password cracking program.
+
+08:10.760 --> 08:15.180
+I can describe the idea of guessing every possible password until I get in.
+
+08:15.500 --> 08:15.560
+Right.
+
+08:15.680 --> 08:16.340
+That's tier one.
+
+08:16.720 --> 08:17.240
+Describable.
+
+08:17.540 --> 08:22.600
+Then tier two is that I actually write the script that runs through the dictionary a million times a second.
+
+08:22.960 --> 08:24.500
+I have constructed the search.
+
+08:24.640 --> 08:24.920
+Perfect.
+
+08:25.120 --> 08:25.380
+Yes.
+
+08:25.480 --> 08:26.440
+What's the third tier then?
+
+08:26.580 --> 08:28.720
+The third tier is verifiable.
+
+08:29.520 --> 08:30.000
+Verifiable.
+
+08:30.380 --> 08:30.580
+Right.
+
+08:30.960 --> 08:32.800
+This means you've constructed the process.
+
+08:33.120 --> 08:34.520
+It has produced an output.
+
+08:34.960 --> 08:39.900
+And now there is concrete evidence that a designated checker within the system will actually accept.
+
+08:39.900 --> 08:42.400
+It meets the constraints of the auditor.
+
+08:43.060 --> 08:43.960
+Wait, let me just jump in here.
+
+08:44.060 --> 08:46.180
+I'm trying to wrap my head around this difference.
+
+08:46.360 --> 08:46.480
+Sure.
+
+08:46.980 --> 08:55.240
+If my password script is constructible and it eventually finds the password, shouldn't it automatically be verifiable?
+
+08:55.540 --> 08:57.240
+Like why are those two different tiers?
+
+08:57.800 --> 08:58.820
+You know, you'd think so.
+
+08:59.060 --> 09:04.640
+But the math here proves that possible in theory is entirely useless if it's not verifiable in context.
+
+09:04.860 --> 09:05.300
+What do you mean?
+
+09:05.300 --> 09:10.480
+Well, the author uses a great conceptual proof for the gap between constructible and verifiable.
+
+09:11.380 --> 09:16.220
+Imagine a system checker that has a strict time limit or like a length limit.
+
+09:16.400 --> 09:16.560
+Okay.
+
+09:16.820 --> 09:20.480
+It will only accept a proof if it can be read in, say, 10 minutes.
+
+09:21.040 --> 09:27.500
+Now, you could theoretically run an exhaustive search that eventually finds a massive, sprawling mathematical truth.
+
+09:27.640 --> 09:27.860
+Right.
+
+09:27.940 --> 09:29.060
+So that makes it constructible.
+
+09:29.060 --> 09:29.660
+Exactly.
+
+09:30.660 --> 09:38.620
+But if the absolute shortest possible way to explain that truth to the checker takes a thousand years to read, your checker will simply time out.
+
+09:38.700 --> 09:39.220
+It will fail.
+
+09:39.500 --> 09:40.080
+Oh, wow.
+
+09:40.340 --> 09:42.480
+So the truth exists and you found it.
+
+09:42.820 --> 09:47.400
+But because of the physical limits of the system, it is functionally unverifiable.
+
+09:47.740 --> 09:48.040
+Yes.
+
+09:48.520 --> 09:50.380
+It's like finding the cure for a disease.
+
+09:50.380 --> 09:55.700
+But the formula is so complex that you die of old age before you can finish writing it down on the whiteboard.
+
+09:55.960 --> 09:57.820
+That is a perfect analogy.
+
+09:57.820 --> 10:08.260
+There are actual problems in computer science, like proofs related to the pigeonhole principle, where the shortest possible resolution is astronomically long.
+
+10:08.900 --> 10:13.400
+So a system can compute it, but it cannot verify it within any reasonable bounds.
+
+10:13.740 --> 10:14.100
+Exactly.
+
+10:14.700 --> 10:18.780
+And that brings us to the final ultimate tier, committable.
+
+10:19.020 --> 10:19.560
+Committable.
+
+10:19.940 --> 10:20.780
+The finish line.
+
+10:21.340 --> 10:21.720
+Right.
+
+10:22.180 --> 10:26.500
+Let's say you have described it, constructed it, and the checker has completely verified it.
+
+10:26.500 --> 10:29.480
+The last hurdle is the gate context.
+
+10:30.120 --> 10:30.660
+Which means what?
+
+10:31.260 --> 10:41.560
+Do you actually have the authorization, the policy clearance, and the resources to license this verified result into the permanent, irreversible history of the system?
+
+10:41.900 --> 10:42.400
+Oh, I see.
+
+10:42.500 --> 10:42.700
+Okay.
+
+10:42.820 --> 10:43.940
+Let's say I go to the bank.
+
+10:44.480 --> 10:46.520
+I can verify my identity to the bank.
+
+10:46.520 --> 10:51.920
+I can prove cryptographically that a transaction of a million dollars is mathematically sound.
+
+10:52.180 --> 10:52.280
+Right.
+
+10:52.780 --> 10:57.300
+But if I don't actually have a million dollars in my account, the bank is not going to commit that transaction.
+
+10:57.380 --> 10:57.860
+Exactly.
+
+10:58.380 --> 11:04.380
+Or to bring it back to your opening example, you can draft the furious email that makes it constructible.
+
+11:04.580 --> 11:04.740
+Yeah.
+
+11:04.880 --> 11:07.500
+You run it through spellcheck, so it's verifiable.
+
+11:07.500 --> 11:13.740
+But if you rip the power cord out before the server authorizes the send, it is not committable.
+
+11:14.080 --> 11:15.400
+It never enters history.
+
+11:15.980 --> 11:17.940
+So these aren't just abstract logical quirks.
+
+11:18.040 --> 11:22.540
+They track genuine catastrophic failures in engineering and in human life.
+
+11:22.800 --> 11:23.160
+Absolutely.
+
+11:23.480 --> 11:27.480
+It's basically an elaborate, mathematically rigorous way of saying talk is cheap.
+
+11:27.640 --> 11:28.700
+That's a great way to put it.
+
+11:28.700 --> 11:40.220
+Because you can have a specification you can describe but can't implement, an implementation you can construct but can't audit, and an audited, verified result that you simply don't have the authority to act upon.
+
+11:40.540 --> 11:40.680
+Right.
+
+11:41.420 --> 11:45.740
+Admissibility isn't about finding truth in some omniscient philosophical sense.
+
+11:45.860 --> 11:51.540
+It is strictly about what a system is currently licensed to permanently commit to its own history.
+
+11:51.540 --> 11:59.000
+Okay, so a distinction is only consequential if it survives this brutal four-tier gauntlet and actually gets committed.
+
+11:59.300 --> 11:59.540
+Yes.
+
+11:59.880 --> 12:06.320
+And once it's committed, it is irreversible, which perfectly sets up the next massive leap the research takes.
+
+12:06.500 --> 12:07.340
+It's a big leap.
+
+12:07.960 --> 12:08.340
+It is.
+
+12:08.620 --> 12:14.740
+Because if committing to a choice permanently alters history, how does the universe itself handle history?
+
+12:15.220 --> 12:19.940
+We're moving from the abstract logic of algorithms straight into the fundamental physics of time.
+
+12:20.160 --> 12:20.600
+We are.
+
+12:20.600 --> 12:24.520
+The text introduces a framework called the RSVP plenum.
+
+12:24.700 --> 12:28.360
+Which stands for Relativistic Scalar Vector Entropy Plenum.
+
+12:28.480 --> 12:29.980
+Yeah, it is quite the mouthful.
+
+12:30.060 --> 12:30.920
+Five times fast.
+
+12:31.000 --> 12:32.000
+Yeah, it is quite the mouthful.
+
+12:32.420 --> 12:35.720
+But it is a constraint-first physical research program.
+
+12:35.920 --> 12:37.240
+A research program.
+
+12:37.240 --> 12:45.780
+Yes, and I really want to emphasize that the author carefully calls it a research program, borrowing terminology from the philosopher of science, Imre Lakatos.
+
+12:46.300 --> 12:47.380
+Remind me about Lakatos.
+
+12:47.640 --> 12:47.880
+Sure.
+
+12:47.880 --> 12:55.900
+So Lakatos argued that science progresses through these programs, which have a hard core of foundational ideas that you never question.
+
+12:55.900 --> 13:03.960
+And that core is surrounded by a protective belt of auxiliary hypotheses and models that you can tweak when experiments fail.
+
+13:04.160 --> 13:10.040
+So the author is basically saying, look, I am not claiming this is the final empirical theory of quantum gravity.
+
+13:10.100 --> 13:10.320
+Right.
+
+13:10.640 --> 13:16.020
+I'm building a mathematical schema to show how irreversibility must function at a base level.
+
+13:16.020 --> 13:16.740
+Exactly.
+
+13:17.200 --> 13:19.540
+It's a highly responsible way to do theoretical work.
+
+13:20.160 --> 13:23.100
+They separate the mathematical proofs from the empirical claims.
+
+13:23.360 --> 13:23.820
+That makes sense.
+
+13:24.340 --> 13:33.220
+And the hard core of the RSVP program is the proposal that instead of thinking of particles moving through a pre-existing static grid of space-time...
+
+13:33.220 --> 13:34.640
+Like actors on an empty stage.
+
+13:34.740 --> 13:34.940
+Right.
+
+13:35.320 --> 13:40.600
+Instead of that, we should think of physical reality as a continuous medium, a plenum.
+
+13:40.600 --> 13:46.820
+And this medium, this plenum, it has three main dials or fields that define everything happening inside it.
+
+13:47.440 --> 13:49.780
+The text calls this the minimal schema.
+
+13:50.000 --> 13:50.240
+Right.
+
+13:50.680 --> 13:52.740
+Let's break those down for everyone listening.
+
+13:52.780 --> 13:53.000
+Okay.
+
+13:53.080 --> 13:56.980
+So the three fields are capacity, flow, and entropy density.
+
+13:57.280 --> 13:59.200
+Flow and entropy, I kind of get.
+
+13:59.500 --> 13:59.740
+Yeah.
+
+13:59.880 --> 14:03.240
+Flow, which is denoted as a vector field, is relatively intuitive.
+
+14:03.680 --> 14:07.740
+It describes how things move, how information and material transport through the medium.
+
+14:08.120 --> 14:09.440
+And entropy density.
+
+14:09.440 --> 14:19.220
+Entropy density is a measure of how much local configurations have degraded, how much information has been smeared out, scrambled, and basically lost.
+
+14:19.440 --> 14:23.060
+But it's this capacity field that the paper leans on so heavily, right?
+
+14:23.440 --> 14:23.920
+Yes.
+
+14:24.760 --> 14:32.200
+Capacity, which is represented by the scalar field phi, is the most distinctive interpretive weight in the entire program.
+
+14:32.340 --> 14:33.180
+What does it actually do?
+
+14:33.680 --> 14:38.180
+The proposal is that phi measures the local budget of the plenum to support distinctions.
+
+14:38.440 --> 14:39.000
+So it's a budget.
+
+14:39.000 --> 14:39.720
+Exactly.
+
+14:40.500 --> 14:45.760
+Where capacity is high, the universe can maintain incredibly fine, detailed, delicate structure.
+
+14:46.100 --> 14:50.020
+Where capacity is low, structure gets aggressively smoothed away.
+
+14:50.540 --> 14:54.300
+Finer distinctions physically require more capacity to exist.
+
+14:54.820 --> 14:55.620
+I love that concept.
+
+14:56.080 --> 15:01.140
+It's literally the universe's hard drive space for keeping things distinct from one another.
+
+15:01.200 --> 15:02.820
+That's exactly what it is.
+
+15:02.820 --> 15:06.700
+If the universe runs out of capacity in a certain area, things just blur together.
+
+15:07.240 --> 15:10.860
+But, you know, the real mind bender for me was what they do with the entropy field.
+
+15:11.000 --> 15:11.720
+Oh, absolutely.
+
+15:12.100 --> 15:22.160
+They argue that time, the ticking clock that we all experience, the arrow pointing from the past to the future, it is not some background stage that events happen on.
+
+15:22.160 --> 15:26.660
+Time emerges from irreversible entropy production.
+
+15:26.660 --> 15:26.960
+Yeah.
+
+15:27.200 --> 15:33.740
+And if we connect this to the bigger picture, this touches on something called Landauer's principle, which is crucial for understanding the whole paper.
+
+15:34.140 --> 15:35.280
+Tell me about Landauer's principle.
+
+15:35.280 --> 15:40.720
+So, in 1961, a physicist named Rolf Landauer proved something astonishing.
+
+15:41.240 --> 15:47.560
+He showed that there is an unavoidable physical thermodynamic cost to erasing data.
+
+15:47.740 --> 15:48.640
+Wait, explain that.
+
+15:49.100 --> 15:54.200
+Are you saying just the act of deleting a file on my computer creates heat?
+
+15:54.500 --> 15:55.740
+Literally, yes.
+
+15:55.980 --> 15:56.240
+Wow.
+
+15:56.660 --> 16:00.420
+See, when you process information, you are physically moving electrons around.
+
+16:00.420 --> 16:05.920
+Now, if you do a computation where you keep every single piece of intermediate data...
+
+16:05.920 --> 16:07.380
+So, you never throw anything away?
+
+16:07.540 --> 16:07.680
+Right.
+
+16:07.760 --> 16:08.620
+You never delete a thing.
+
+16:09.020 --> 16:13.860
+You can theoretically run that computation forward and backward without dissipating any heat at all.
+
+16:14.240 --> 16:15.500
+It's called reversible computing.
+
+16:15.940 --> 16:17.720
+Because no distinctions are lost.
+
+16:17.880 --> 16:18.240
+Exactly.
+
+16:18.760 --> 16:26.440
+But the moment you merge two states together, say you have a variable that could be a 1 or a 0, and you forcefully reset it to 0.
+
+16:26.760 --> 16:28.720
+You've lost information about what it used to be.
+
+16:28.720 --> 16:29.040
+Yes.
+
+16:29.400 --> 16:31.140
+You have erased a distinction.
+
+16:32.320 --> 16:38.080
+And Landauer proved that that erasure must release a tiny, specific amount of heat into the environment.
+
+16:38.540 --> 16:40.980
+So, forgetting has a physical thermal cost.
+
+16:41.300 --> 16:42.180
+It produces entropy.
+
+16:42.460 --> 16:42.700
+Yes.
+
+16:43.080 --> 16:51.740
+And Flyxion is taking this unbreakable link between logical irreversibility and physical irreversibility and scaling it up to the entire cosmos.
+
+16:52.120 --> 16:53.440
+That is wild.
+
+16:53.640 --> 16:54.200
+Isn't it?
+
+16:54.200 --> 16:57.640
+The universe computes, but it also forgets.
+
+16:58.240 --> 17:00.480
+It constantly merges states together.
+
+17:00.940 --> 17:01.540
+Things decay.
+
+17:02.020 --> 17:03.400
+Things crash into each other.
+
+17:03.520 --> 17:04.480
+Heat dissipates.
+
+17:04.720 --> 17:04.940
+Right.
+
+17:05.200 --> 17:11.400
+And the author is saying that this process of forgetting, this production of entropy, is the temporal order.
+
+17:11.660 --> 17:11.980
+Yes.
+
+17:12.700 --> 17:19.940
+The time that has passed for any object, its entropic age, is literally just the tally of all the entropy it has produced.
+
+17:19.940 --> 17:23.020
+So, temporal order is just reachability.
+
+17:23.480 --> 17:23.820
+Exactly.
+
+17:24.600 --> 17:28.680
+State B is later than state A purely because the universe produced entropy.
+
+17:28.860 --> 17:30.980
+It paid a physical price to get from A to B.
+
+17:31.540 --> 17:35.500
+And because of the constraints of thermodynamics, you cannot run that process backward.
+
+17:35.880 --> 17:37.900
+You can't un-dissipate the heat.
+
+17:38.120 --> 17:38.480
+No.
+
+17:38.800 --> 17:39.040
+No.
+
+17:39.040 --> 17:43.560
+The arrow of time is sharp only because the distinctions have been permanently merged.
+
+17:44.220 --> 17:44.440
+Okay, wait.
+
+17:44.560 --> 17:47.400
+Let me push on this because here is where my brain starts to melt a little bit.
+
+17:47.520 --> 17:47.920
+Go for it.
+
+17:48.360 --> 17:51.500
+What happens if the system hits maximum entropy?
+
+17:51.720 --> 17:52.140
+Ah, right.
+
+17:52.480 --> 17:54.600
+Because the paper talks about a heat death scenario.
+
+17:55.000 --> 18:01.960
+If time is just the accumulation of entropy and the universe eventually expands and cools and reaches a state of total equilibrium.
+
+18:02.620 --> 18:04.520
+Where entropy simply stops increasing.
+
+18:04.520 --> 18:05.000
+Right.
+
+18:05.360 --> 18:06.900
+Does time just stop?
+
+18:07.580 --> 18:10.440
+Even if, theoretically, a clock is floating in the void somewhere?
+
+18:10.960 --> 18:12.720
+Well, this raises an important question.
+
+18:12.860 --> 18:17.160
+And it is explicitly one of the open problems the author catalogs at the end of the text.
+
+18:17.440 --> 18:18.700
+What's the mathematical answer?
+
+18:19.980 --> 18:22.780
+Mathematically, according to this schema, yes.
+
+18:23.200 --> 18:24.820
+The entropic clock saturates.
+
+18:25.500 --> 18:26.140
+It stops.
+
+18:26.340 --> 18:26.540
+Yeah.
+
+18:26.960 --> 18:31.740
+In a late-time equilibrium, things might technically still be fluctuating at a quantum level.
+
+18:31.740 --> 18:34.820
+But they leave no irreversible marks.
+
+18:35.640 --> 18:37.840
+And without marks, there is no permanent record.
+
+18:38.020 --> 18:38.140
+Right.
+
+18:38.640 --> 18:43.420
+Without a permanent record of irreversible transitions, there is no temporal order.
+
+18:43.940 --> 18:45.620
+You lose the distinctions entirely.
+
+18:46.000 --> 18:50.220
+Time, as an emergent property of history, effectively ceases to exist.
+
+18:50.620 --> 18:51.640
+That is haunting.
+
+18:51.980 --> 18:52.760
+It really is.
+
+18:53.140 --> 18:55.880
+If nothing can leave a scar, time isn't passing.
+
+18:56.520 --> 18:58.760
+It's just a static, ahistorical blur.
+
+18:58.760 --> 19:03.560
+It forces us to realize that time isn't a container we live inside.
+
+19:03.760 --> 19:07.860
+It is the exhaust fume of the universe making irreversible decisions.
+
+19:08.240 --> 19:10.140
+The exhaust fume of decisions.
+
+19:10.720 --> 19:10.980
+Wow.
+
+19:11.740 --> 19:12.000
+Okay.
+
+19:12.120 --> 19:15.000
+So the universe organically bakes in irreversibility.
+
+19:15.420 --> 19:18.000
+It generates time by merging states and forgetting.
+
+19:18.200 --> 19:18.700
+We get that.
+
+19:18.980 --> 19:19.140
+Yeah.
+
+19:19.300 --> 19:20.900
+And we can't change the laws of physics.
+
+19:21.400 --> 19:24.660
+But we build artificial universes all the time.
+
+19:25.040 --> 19:27.840
+We build computer networks, financial systems, databases.
+
+19:27.840 --> 19:28.400
+Right.
+
+19:28.860 --> 19:34.460
+How do we engineer these artificial systems to make irreversible decisions safely in a universe
+
+19:34.460 --> 19:35.900
+that has no undo button?
+
+19:36.440 --> 19:39.340
+Well, we're moving from the cosmos into computer science now.
+
+19:39.460 --> 19:39.900
+Exactly.
+
+19:40.540 --> 19:42.280
+The architecture of consequence.
+
+19:42.960 --> 19:47.840
+The computational counterpart to this whole philosophy is something the author calls the
+
+19:47.840 --> 19:48.960
+sphere pop calculus.
+
+19:49.520 --> 19:53.140
+And it's practical realization, which is sphere pop OS.
+
+19:53.360 --> 19:54.380
+Sphere pop OS.
+
+19:54.380 --> 20:00.260
+It is an operating system architecture designed from the ground up specifically for admissible
+
+20:00.260 --> 20:01.320
+state transitions.
+
+20:02.040 --> 20:04.860
+And it essentially runs on a life cycle of six verbs, right?
+
+20:05.000 --> 20:05.240
+Yes.
+
+20:05.580 --> 20:10.540
+Pop, bind, transform, verify, collapse, and refuse.
+
+20:11.080 --> 20:12.080
+That's correct.
+
+20:12.900 --> 20:17.420
+And to understand why this architecture is so revolutionary, you have to look at how poorly
+
+20:17.420 --> 20:18.780
+we currently manage data.
+
+20:19.000 --> 20:19.440
+How so?
+
+20:19.440 --> 20:22.340
+Most modern systems just overwrite things.
+
+20:23.000 --> 20:26.760
+When you log into your bank and change your address, the database just deletes the old
+
+20:26.760 --> 20:28.120
+address and writes in the new one.
+
+20:28.380 --> 20:28.480
+Right.
+
+20:28.920 --> 20:33.020
+State has changed, but the local history of that change is obliterated.
+
+20:33.280 --> 20:33.800
+Exactly.
+
+20:34.840 --> 20:36.580
+Sphere pop refuses to operate that way.
+
+20:36.820 --> 20:42.800
+It enforces a strict architectural separation between the working state and the evidentiary log.
+
+20:42.800 --> 20:48.460
+Okay, so if I'm understanding this correctly, it's basically formalizing the idea of a draft
+
+20:48.460 --> 20:48.820
+folder.
+
+20:49.160 --> 20:49.980
+That's a great analogy.
+
+20:50.420 --> 20:50.600
+Okay.
+
+20:50.880 --> 20:53.240
+Let's go back to our angry email from the beginning of the show.
+
+20:54.020 --> 20:58.600
+If I am furious at my boss, I don't just start altering the real world immediately.
+
+20:59.040 --> 21:00.880
+I open a new isolated window.
+
+21:01.320 --> 21:02.380
+That verb is pop.
+
+21:02.820 --> 21:03.080
+Okay.
+
+21:03.080 --> 21:05.780
+You've popped a provisional sphere into existence.
+
+21:05.960 --> 21:06.460
+Okay, pop.
+
+21:06.460 --> 21:10.460
+And then I attach my login credentials to it.
+
+21:10.720 --> 21:11.480
+That's bind.
+
+21:11.960 --> 21:14.000
+I brought my authorization into the sphere.
+
+21:14.500 --> 21:14.600
+Right.
+
+21:15.300 --> 21:19.260
+Then transform is me actually typing out my angry thoughts.
+
+21:19.700 --> 21:21.940
+I am computing the provisional state.
+
+21:22.500 --> 21:23.380
+I can read the email.
+
+21:23.820 --> 21:26.940
+I can see how devastating it is, but it's totally contained.
+
+21:27.300 --> 21:27.900
+Exactly.
+
+21:27.900 --> 21:33.940
+You are freely mutating data, but you have not altered the committed world state yet.
+
+21:34.220 --> 21:37.720
+The system is holding this provisional reality inside a private bubble.
+
+21:38.480 --> 21:38.600
+Okay.
+
+21:38.880 --> 21:43.600
+So then I run a spell check, or maybe the company has an HR filter that scans for profanity.
+
+21:43.900 --> 21:45.180
+That's verify.
+
+21:45.600 --> 21:45.880
+Yep.
+
+21:46.000 --> 21:47.320
+And then let's say it passes the check.
+
+21:47.880 --> 21:49.120
+This very moment, I have a choice.
+
+21:49.600 --> 21:50.820
+I can hit refuse.
+
+21:51.400 --> 21:52.420
+I can delete the draft.
+
+21:52.580 --> 21:52.760
+Right.
+
+21:52.760 --> 21:57.560
+And if I do that, the committed state of the world, my employment, my relationship with
+
+21:57.560 --> 21:59.960
+my boss, it remains completely untouched.
+
+22:00.460 --> 22:00.820
+It does.
+
+22:01.440 --> 22:03.880
+But SpherePop OS does something unique here.
+
+22:04.340 --> 22:07.460
+It keeps a permanent log that you almost sent it.
+
+22:07.860 --> 22:08.980
+It logs the refuse.
+
+22:09.460 --> 22:11.120
+Why log something that didn't happen?
+
+22:11.680 --> 22:14.180
+Because the refusal itself is a historical event.
+
+22:14.860 --> 22:20.240
+The fact that you spent computational resources proposing a state and then rejected it is vital
+
+22:20.240 --> 22:21.400
+evidentiary data.
+
+22:21.400 --> 22:22.360
+Oh, wow.
+
+22:22.760 --> 22:24.700
+And what if you don't hit refuse?
+
+22:25.540 --> 22:29.120
+Well, if I hit collapse, that is the point of no return.
+
+22:29.420 --> 22:29.640
+Yes.
+
+22:30.040 --> 22:36.180
+Collapse is the only verb in the entire operating system that actually changes the global committed
+
+22:36.180 --> 22:36.980
+world state.
+
+22:37.400 --> 22:42.900
+The email sends, the inbox registers a new message, and a permanent collapse entry is
+
+22:42.900 --> 22:43.720
+appended to the log.
+
+22:44.100 --> 22:46.300
+The analogy holds up beautifully.
+
+22:46.300 --> 22:52.160
+The author mathematically proves that refuse leaves the committed state untouched, while
+
+22:52.160 --> 22:54.980
+collapse acts as the boundary of irreversibility.
+
+22:55.660 --> 22:56.480
+That makes total sense.
+
+22:57.160 --> 23:02.360
+But the true genius, the real integrity of this architecture, is how that evidentiary log
+
+23:02.360 --> 23:03.460
+is actually constructed.
+
+23:03.460 --> 23:05.240
+It relies on two rules.
+
+23:05.920 --> 23:08.220
+Hash-linked logging and acyclic reference.
+
+23:08.720 --> 23:08.920
+Okay.
+
+23:09.140 --> 23:09.980
+Let's break those down.
+
+23:10.520 --> 23:11.260
+Hash-linking.
+
+23:12.400 --> 23:14.860
+I've heard that term used with blockchains and cryptocurrencies.
+
+23:15.180 --> 23:16.360
+Is it the same idea here?
+
+23:16.920 --> 23:18.900
+It uses similar cryptographic principles.
+
+23:19.040 --> 23:19.240
+Yes.
+
+23:19.740 --> 23:25.820
+Every single entry in the SpherePop log contains a cryptographic hash, a unique mathematical fingerprint
+
+23:25.820 --> 23:28.260
+of the entry that immediately preceded it.
+
+23:28.980 --> 23:30.340
+So it creates an unbreakable chain?
+
+23:30.680 --> 23:31.080
+Exactly.
+
+23:31.340 --> 23:32.560
+It makes the log tamper evident.
+
+23:33.200 --> 23:34.240
+What does that mean in practice?
+
+23:34.800 --> 23:39.160
+Well, if a malicious actor, or even just a system error, tries to go back in time and
+
+23:39.160 --> 23:45.120
+alter the log of your drafted email, the mathematical fingerprint of every single subsequent entry will
+
+23:45.120 --> 23:49.380
+instantly break, blaring a siren that the history has been tampered with.
+
+23:49.840 --> 23:52.660
+It's like sealing an envelope with a wax stamp.
+
+23:52.760 --> 23:54.220
+If someone opens it, you know.
+
+23:54.220 --> 23:56.120
+Great way to visualize it.
+
+23:56.740 --> 23:58.440
+But what is acyclic reference?
+
+23:59.140 --> 24:03.380
+Acyclic reference means that an entry in the log can only refer to things that happened
+
+24:03.380 --> 24:04.320
+before it was created.
+
+24:04.540 --> 24:05.700
+It cannot point forward.
+
+24:06.240 --> 24:07.720
+Well, I mean, that seems obvious, right?
+
+24:07.800 --> 24:09.940
+How could a computer log reference the future?
+
+24:10.340 --> 24:16.320
+It sounds obvious to a human experiencing linear time, but in computer science, allowing
+
+24:16.320 --> 24:20.100
+a data structure to reference itself or to reference something that is referencing
+
+24:20.100 --> 24:23.420
+it back, it creates massive paradoxes.
+
+24:23.420 --> 24:24.840
+Oh, like infinite loops.
+
+24:25.000 --> 24:25.320
+Exactly.
+
+24:25.680 --> 24:27.900
+It's the root of countless system crashes.
+
+24:28.800 --> 24:32.020
+The author insists that the commit log must point backward.
+
+24:32.540 --> 24:36.320
+The record of an action, the witness evidence, points to the commitment.
+
+24:36.980 --> 24:41.060
+But the commitment itself does not contain a reference to the witness evidence that will
+
+24:41.060 --> 24:42.340
+eventually be filed about it.
+
+24:42.560 --> 24:42.920
+Right.
+
+24:42.920 --> 24:44.980
+The action is what it is.
+
+24:44.980 --> 24:47.040
+The evidence is filed afterward.
+
+24:48.140 --> 24:50.780
+This separates the action from the record of the action.
+
+24:51.480 --> 24:53.820
+So the committed state of the world is just a projection.
+
+24:54.620 --> 24:59.940
+If you only look at the final committed state, like the sent email, you lose the entire messy
+
+24:59.940 --> 25:01.040
+history of how it got there.
+
+25:01.300 --> 25:01.520
+Yes.
+
+25:01.740 --> 25:05.060
+You lose the drafts, the hesitations, the failed verifications.
+
+25:05.060 --> 25:08.040
+And this framework scales up, right?
+
+25:08.440 --> 25:11.200
+What happens when you have a million people using SpherePop at once?
+
+25:11.760 --> 25:14.740
+Well, the text introduces coordination frameworks to handle that.
+
+25:15.040 --> 25:17.400
+And the most complex of these is called Tartan.
+
+25:17.880 --> 25:18.140
+Right.
+
+25:18.300 --> 25:23.580
+Tartan explores how local tiles, you know, local states, interacting only with their immediate
+
+25:23.580 --> 25:26.620
+neighbors, how they can create a globally coherent pattern.
+
+25:26.620 --> 25:32.440
+Think about a massive grid, where each square is its own little SpherePop system making local
+
+25:32.440 --> 25:32.940
+decisions.
+
+25:33.440 --> 25:38.160
+Can these local, bounded rules guarantee that the entire grid won't eventually tear itself
+
+25:38.160 --> 25:38.520
+apart?
+
+25:38.920 --> 25:43.140
+So it's like asking if a bunch of ants, who can only see a few inches in front of them
+
+25:43.140 --> 25:47.980
+and only follow local pheromone trails, can reliably build a perfectly structured colony
+
+25:47.980 --> 25:48.720
+without a blueprint.
+
+25:49.360 --> 25:51.060
+That's an excellent way to visualize it.
+
+25:51.540 --> 25:56.320
+And the text relies on a concept called Wang Tiles to prove a devastating point about this.
+
+25:56.320 --> 25:57.200
+Wang Tiles.
+
+25:57.840 --> 25:58.300
+What are those?
+
+25:58.900 --> 26:00.860
+Think of a Wang Tile like a puzzle piece.
+
+26:01.140 --> 26:05.040
+But instead of interlocking shapes, it's just a square with colored edges.
+
+26:05.240 --> 26:05.480
+Okay.
+
+26:05.680 --> 26:09.840
+The only rule is that you can only place a tile next to another tile if their touching
+
+26:09.840 --> 26:11.360
+edges have the exact same color.
+
+26:11.720 --> 26:13.220
+Sounds like a fun, simple game.
+
+26:13.740 --> 26:17.300
+It is, until you ask a computer a specific question.
+
+26:18.000 --> 26:22.820
+Given this specific set of colored tiles, can you cover an infinitely large floor without
+
+26:22.820 --> 26:24.860
+ever breaking the color matching rule?
+
+26:24.860 --> 26:30.260
+I feel like a modern supercomputer could easily calculate a definitive yes or no for that.
+
+26:30.880 --> 26:31.820
+You'd think so.
+
+26:32.160 --> 26:36.800
+But the math proves that for certain sets of tiles, this problem, which is known as the
+
+26:36.800 --> 26:40.000
+domino problem, is mathematically undecidable.
+
+26:40.800 --> 26:41.200
+Undecidable.
+
+26:41.380 --> 26:41.620
+Yes.
+
+26:41.780 --> 26:44.340
+No algorithm can ever give you a guaranteed answer.
+
+26:44.680 --> 26:48.800
+You just have to start laying tiles and hope you don't paint yourself into a corner a million
+
+26:48.800 --> 26:49.560
+miles down the line.
+
+26:49.860 --> 26:50.100
+Right.
+
+26:50.100 --> 26:51.180
+Let me process that.
+
+26:51.980 --> 26:59.500
+So even with this incredibly rigorous, mathematically perfect SpherePop OS, with its cryptographic
+
+26:59.500 --> 27:06.300
+hashes and strict verification gates, you can prove that a single action is safe.
+
+27:06.500 --> 27:12.800
+But you cannot guarantee that a massively complex network of them won't just suddenly spin out
+
+27:12.800 --> 27:14.340
+into emergent chaos.
+
+27:14.340 --> 27:16.000
+That is exactly the consequence.
+
+27:16.800 --> 27:18.360
+You can certify local safety.
+
+27:18.580 --> 27:21.940
+You cannot compute a global guarantee of emergent behavior.
+
+27:22.260 --> 27:23.800
+The math literally forbids it.
+
+27:24.060 --> 27:25.940
+That is deeply unsettling.
+
+27:26.640 --> 27:30.140
+We build these vast interconnected systems all the time.
+
+27:30.260 --> 27:34.960
+The global stock market, autonomous driving networks, the internet itself.
+
+27:35.160 --> 27:35.360
+Yeah.
+
+27:35.360 --> 27:41.100
+And at a fundamental level, we are just crossing our fingers that the local rules don't eventually
+
+27:41.100 --> 27:42.380
+produce a global paradox?
+
+27:43.080 --> 27:44.020
+It's a sobering thought.
+
+27:44.600 --> 27:45.220
+It really is.
+
+27:45.280 --> 27:49.420
+And speaking of vast systems, I have a practical problem with SpherePop.
+
+27:49.660 --> 27:50.160
+What's that?
+
+27:50.740 --> 27:56.920
+If you have a hash-linked log that records every single draft, every single refusal, every tiny
+
+27:56.920 --> 28:00.900
+action, forever, that log is going to get infinitely large.
+
+28:01.300 --> 28:02.380
+It absolutely is.
+
+28:02.380 --> 28:05.200
+A record that never forgets grows without bound.
+
+28:05.320 --> 28:08.220
+It will eventually consume all available physical memory.
+
+28:08.660 --> 28:10.480
+So you have to compact it, right?
+
+28:10.540 --> 28:15.280
+At some point, you have to take a giant chunk of the past, calculate the final committed state
+
+28:15.280 --> 28:20.920
+it resulted in, save that state, and throw away the messy, infinitely large log of how you
+
+28:20.920 --> 28:21.320
+got there.
+
+28:21.520 --> 28:21.980
+You do.
+
+28:22.420 --> 28:25.260
+But by doing that, you violate Landauer's principle again.
+
+28:25.380 --> 28:25.900
+Oh, right.
+
+28:26.120 --> 28:27.140
+You merge distinctions.
+
+28:27.560 --> 28:29.000
+You throw away the refusals.
+
+28:29.180 --> 28:31.100
+You lose the granular evidence.
+
+28:31.100 --> 28:36.400
+You are essentially trading evidentiary accountability for working state efficiency.
+
+28:37.140 --> 28:42.980
+And this physical limitation, this fact that infinite logs are physically impossible and
+
+28:42.980 --> 28:48.580
+compaction is just inevitable, it transitions brilliantly into the fourth section of the paper.
+
+28:48.720 --> 28:49.700
+It's my favorite section.
+
+28:50.080 --> 28:53.640
+Because computer logs are a luxury of silicon and massive data centers.
+
+28:53.640 --> 29:00.560
+Biological systems, human minds, we do not have the capacity to store a perfect, append-only
+
+29:00.560 --> 29:01.600
+log of our lives.
+
+29:01.700 --> 29:02.340
+We really don't.
+
+29:02.640 --> 29:05.920
+We have incredibly strict space constraints inside our skulls.
+
+29:05.920 --> 29:10.720
+So when you can't keep a perfect log, how do you know what happened?
+
+29:10.720 --> 29:13.920
+And more importantly, how do you know who you are?
+
+29:14.520 --> 29:18.420
+This is where the paper transitions from silicon to cognitive psychology.
+
+29:18.660 --> 29:23.140
+It introduces a framework for memory and identity called MEM-8.
+
+29:23.260 --> 29:24.120
+MEM-8.
+
+29:24.320 --> 29:24.520
+Right.
+
+29:24.520 --> 29:32.080
+And it starts with a vital fundamental distinction between two concepts, preservation versus reachability.
+
+29:32.600 --> 29:37.040
+Okay, unpack this for us because this fundamentally changed how I view my own brain.
+
+29:37.260 --> 29:41.600
+We culturally tend to think of human memory like a video file stored on a hard drive or
+
+29:41.600 --> 29:42.480
+a book in a library.
+
+29:42.700 --> 29:45.880
+Yeah, if you want to remember something, you just walk down the aisle, find the book, and
+
+29:45.880 --> 29:46.220
+open it.
+
+29:46.360 --> 29:46.700
+Exactly.
+
+29:47.340 --> 29:49.980
+That implies the original material is preserved.
+
+29:49.980 --> 29:53.800
+It is sitting there, whole and intact, waiting to be accessed.
+
+29:54.060 --> 29:54.160
+Right.
+
+29:54.600 --> 29:58.720
+But MEM-8 argues that biological memory operates on reachability.
+
+29:59.040 --> 29:59.560
+Reachability.
+
+30:00.100 --> 30:01.040
+What's the difference?
+
+30:01.420 --> 30:07.780
+Reachability means the system possesses a process to generate a target output given current conditions,
+
+30:08.000 --> 30:12.640
+even if the original material isn't stored in full anywhere in the system.
+
+30:12.920 --> 30:16.820
+To prove this, the author introduces the constraint of the 8-byte memory cell.
+
+30:17.440 --> 30:18.520
+And this blew my mind.
+
+30:18.520 --> 30:20.200
+It's mathematically undeniable.
+
+30:20.580 --> 30:20.660
+Yeah.
+
+30:21.000 --> 30:26.300
+By mathematical proof, a single 8-byte cell, which is tiny, I mean, it's literally just
+
+30:26.300 --> 30:27.280
+64 bits of data.
+
+30:27.620 --> 30:29.920
+A text message is vastly larger than that.
+
+30:30.000 --> 30:30.560
+Way larger.
+
+30:30.920 --> 30:34.540
+It cannot possibly hold a complex, rich, multisensory memory.
+
+30:35.180 --> 30:39.220
+The counting bound, just the sheer mathematics of information theory, completely forbids it.
+
+30:39.480 --> 30:39.880
+It does.
+
+30:40.160 --> 30:45.820
+So if your brain is outputting a rich, complex memory from an 8-byte encoded cell, the information
+
+30:45.820 --> 30:47.240
+is not coming from the cell itself.
+
+30:47.240 --> 30:47.740
+It cannot.
+
+30:47.960 --> 30:49.060
+It must be reconstructed.
+
+30:49.420 --> 30:52.640
+The vivid memory you experience is a joint product of three things.
+
+30:53.120 --> 30:58.040
+The tiny, heavily compressed cell, the cue that triggered the memory, and the present
+
+30:58.040 --> 31:00.100
+context of the observer doing the remembering.
+
+31:00.580 --> 31:02.260
+I want you listening to try something right now.
+
+31:02.760 --> 31:04.860
+Think about your own earliest memory.
+
+31:05.240 --> 31:07.740
+The one you are absolutely sure is real.
+
+31:07.800 --> 31:08.460
+We all have one.
+
+31:08.460 --> 31:08.900
+Yeah.
+
+31:09.180 --> 31:10.500
+Maybe it's your 10th birthday.
+
+31:10.980 --> 31:12.160
+You can smell the cake.
+
+31:12.480 --> 31:14.140
+You can see the color of the balloons.
+
+31:14.360 --> 31:15.900
+You remember the song playing in the background.
+
+31:16.580 --> 31:20.820
+This paper is mathematically suggesting that you didn't actually store a video of that party.
+
+31:20.900 --> 31:21.380
+No, you didn't.
+
+31:21.740 --> 31:24.840
+Your brain stored a tiny 8-byte zip file.
+
+31:25.520 --> 31:29.760
+And right now, as you try to remember it, your brain is basically hallucinating all those
+
+31:29.760 --> 31:34.340
+rich details based on your current mood and whatever cue prompted you to think about it.
+
+31:34.340 --> 31:36.920
+It means memory isn't a vault at all.
+
+31:37.060 --> 31:38.540
+It's a resonant reconstruction.
+
+31:39.540 --> 31:44.680
+The text connects this to Endel-Tulving's psychological principle of encoding specificity
+
+31:44.680 --> 31:47.720
+and Frederick Bartlett's work on reconstructive memory.
+
+31:48.380 --> 31:50.280
+So you do not retrieve a memory.
+
+31:50.640 --> 31:53.720
+You rebuild it on the fly every single time.
+
+31:53.820 --> 31:54.480
+Every single time.
+
+31:54.800 --> 31:58.240
+And the author models this using a mechanism called interference gating.
+
+31:58.440 --> 31:58.700
+Yes.
+
+31:59.040 --> 32:00.160
+The phase gate mechanism.
+
+32:00.760 --> 32:02.680
+This was such a cool way to visualize it.
+
+32:02.680 --> 32:04.940
+And let's use an analogy for this.
+
+32:05.080 --> 32:05.500
+Go for it.
+
+32:05.720 --> 32:08.440
+Imagine your brain is an old analog radio.
+
+32:08.920 --> 32:13.560
+And every single memory trace you have is a different radio station broadcasting at a
+
+32:13.560 --> 32:14.620
+specific frequency.
+
+32:14.800 --> 32:15.580
+Okay, I'm with you.
+
+32:15.920 --> 32:20.220
+And a cue like a smell, a question, or a photograph.
+
+32:20.980 --> 32:24.480
+That cue is you turning the dial to try and find a specific station.
+
+32:24.720 --> 32:25.100
+Exactly.
+
+32:25.400 --> 32:29.900
+When you try to remember something, you are opening a gate or a receiver on that radio.
+
+32:29.900 --> 32:35.360
+Now, if you make the receiver very broad, a wide gate, you will almost certainly catch
+
+32:35.360 --> 32:38.820
+the station you're looking for, even if your hand slips on the dial or the cue is a bit
+
+32:38.820 --> 32:39.200
+noisy.
+
+32:39.760 --> 32:42.980
+But because the receiver is so wide, you're going to pick up a ton of static.
+
+32:43.200 --> 32:43.420
+Right.
+
+32:43.680 --> 32:47.620
+And worse, you're going to hear two or three other stations bleeding through at the exact
+
+32:47.620 --> 32:48.200
+same time.
+
+32:48.880 --> 32:54.420
+The brain takes all that overlapping noise and desperately stitches it together into a single
+
+32:54.420 --> 32:55.380
+coherent narrative.
+
+32:55.380 --> 32:57.340
+And those are false memories.
+
+32:57.700 --> 32:57.980
+Well.
+
+32:58.240 --> 33:01.360
+That's you remembering your cousin being at a party they never actually attended.
+
+33:01.720 --> 33:04.580
+Because the cousin's station bled into the party station.
+
+33:04.740 --> 33:06.160
+That makes so much sense.
+
+33:06.580 --> 33:11.920
+The expected number of non-target traces, these competitors, it increases linearly with the
+
+33:11.920 --> 33:12.580
+width of the gate.
+
+33:13.120 --> 33:13.480
+Okay.
+
+33:13.880 --> 33:16.000
+But what if I don't want false memories?
+
+33:16.340 --> 33:21.060
+Well, if you try to fix this by making the gate ultra narrow, trying to get perfect,
+
+33:21.060 --> 33:26.020
+pristine clarity with no false memories, you introduce a completely new vulnerability.
+
+33:26.480 --> 33:26.740
+Which is?
+
+33:27.400 --> 33:32.100
+If your cue isn't absolutely mathematically perfect, if your hand is even a millimeter
+
+33:32.100 --> 33:34.760
+off on the radio dial, you get absolute silence.
+
+33:34.920 --> 33:36.260
+You miss the target entirely.
+
+33:36.400 --> 33:37.780
+The memory is unreachable.
+
+33:37.780 --> 33:41.320
+So it's a fundamental trade-off of biological storage.
+
+33:41.840 --> 33:42.120
+It is.
+
+33:42.440 --> 33:47.800
+And this leads directly to a concept that might be the most philosophically aggressive part
+
+33:47.800 --> 33:48.740
+of the entire paper.
+
+33:49.600 --> 33:52.460
+Apparent versus demonstrable continuity.
+
+33:52.840 --> 33:53.100
+Yeah.
+
+33:53.240 --> 33:57.900
+The author formally proves that plausible reconstruction does not establish preservation.
+
+33:57.900 --> 34:03.360
+Just because you can reconstruct a perfectly coherent, highly detailed, very convincing
+
+34:03.360 --> 34:08.460
+memory of your 10th birthday does not mean you preserve the actual historical event.
+
+34:08.760 --> 34:09.940
+Let's contextualize this.
+
+34:10.220 --> 34:15.680
+If I have a heavily pixelated compressed photo from the 1990s and I run it through a modern
+
+34:15.680 --> 34:20.420
+AI upscaler, it might spit out a beautiful photorealistic 4K image.
+
+34:20.520 --> 34:20.700
+Sure.
+
+34:20.960 --> 34:23.400
+That is apparent continuity.
+
+34:23.680 --> 34:24.540
+It looks real.
+
+34:24.940 --> 34:26.020
+It makes logical sense.
+
+34:26.020 --> 34:32.000
+But demonstrable continuity requires an admissible evidenced chain of transitions.
+
+34:32.440 --> 34:38.160
+I have to be able to prove step-by-step, using spherepop level hash logs, how I got from
+
+34:38.160 --> 34:40.300
+the original event to the current state.
+
+34:40.460 --> 34:45.420
+Which links directly back to Landauer's principle and the data processing inequality.
+
+34:45.760 --> 34:45.980
+Right.
+
+34:46.200 --> 34:48.280
+Distinctions lost early are not recovered.
+
+34:48.960 --> 34:54.520
+When your brain compacted the memory of your 10th birthday to save space, it merged states.
+
+34:54.520 --> 34:57.060
+It threw away distinctions permanently.
+
+34:57.680 --> 35:00.160
+So you can never truly regenerate that lost data.
+
+35:00.300 --> 35:03.080
+You can only simulate it, upscale it, hallucinate it.
+
+35:03.560 --> 35:08.760
+And the real danger is that the system, our brain, treats its own reconstructions as if
+
+35:08.760 --> 35:11.240
+they are certified, verifiable records.
+
+35:11.500 --> 35:14.760
+That is why eyewitness testimony is so notoriously unreliable.
+
+35:14.760 --> 35:15.480
+Exactly.
+
+35:16.140 --> 35:22.300
+The brain reconstructed a plausible candidate from 8 bytes of data, slapped a verified sticker
+
+35:22.300 --> 35:25.400
+on it, and bypassed the strict verification step.
+
+35:26.080 --> 35:29.800
+There is no cryptographic hash linking your memory to the actual past.
+
+35:29.800 --> 35:33.260
+We are walking around with a profound evidentiary deficit.
+
+35:33.720 --> 35:34.340
+We really are.
+
+35:34.960 --> 35:37.500
+And this forces a massive crisis for decision-making.
+
+35:37.840 --> 35:37.960
+Right.
+
+35:38.320 --> 35:43.360
+Because if our actions are permanent and irreversible, but our memory, our evidence of the past, is
+
+35:43.360 --> 35:48.600
+inherently lossy, reconstructive, and highly vulnerable to our present context, how do we
+
+35:48.600 --> 35:50.180
+ever decide it is safe to act?
+
+35:50.500 --> 35:53.040
+That is the ultimate pragmatic question.
+
+35:53.260 --> 35:57.640
+Which brings us to the fifth section of the research, decision and synthesis.
+
+35:57.640 --> 35:59.480
+Because we do act.
+
+35:59.980 --> 36:03.580
+We make decisions every single day based on this lossy, imperfect data.
+
+36:03.760 --> 36:04.260
+We have to.
+
+36:04.960 --> 36:09.860
+The paper introduces a mathematical model for this called the reversibility gate and the
+
+36:09.860 --> 36:10.920
+latency of evidence.
+
+36:11.200 --> 36:15.340
+And it starts by separating out a timeline that human beings normally blur all together
+
+36:15.340 --> 36:15.980
+into one moment.
+
+36:16.780 --> 36:20.820
+The author says there are three distinct times in any decision-making process.
+
+36:21.300 --> 36:21.480
+Okay.
+
+36:21.840 --> 36:24.300
+First, there is the time the evidence is observed.
+
+36:24.540 --> 36:24.940
+Observed.
+
+36:25.460 --> 36:27.100
+So the raw data exists in the world.
+
+36:27.100 --> 36:27.580
+Exactly.
+
+36:28.040 --> 36:31.800
+Second, there is the time the claim becomes decidable.
+
+36:32.040 --> 36:32.480
+Decidable.
+
+36:32.880 --> 36:33.820
+What does that mean?
+
+36:34.140 --> 36:35.560
+This means the evidence has matured.
+
+36:35.940 --> 36:37.020
+The noise has settled.
+
+36:37.580 --> 36:39.800
+The posterior probability has concentrated.
+
+36:40.260 --> 36:43.020
+And you have reached a specific tolerance of certainty.
+
+36:43.180 --> 36:44.660
+You basically know what's going on.
+
+36:44.840 --> 36:45.020
+Okay.
+
+36:45.200 --> 36:47.300
+So observed, then decidable.
+
+36:47.300 --> 36:53.760
+And third, there's the time an action is justified, which is the precise moment you are actually
+
+36:53.760 --> 36:57.520
+licensed to pull the trigger and commit a distinction to history.
+
+36:57.520 --> 37:01.460
+And the fascinating part is that these three times don't have to line up.
+
+37:02.100 --> 37:07.520
+The paper provides the actual math for the threshold of justification, which it calls P star.
+
+37:07.620 --> 37:08.440
+P star, right.
+
+37:08.440 --> 37:11.480
+This threshold is determined by two main opposing forces.
+
+37:12.500 --> 37:19.800
+The reversibility of the intervention, which is denoted by the Greek letter rho, and the cost of delay, denoted by kappa.
+
+37:20.440 --> 37:21.340
+Let's make this concrete.
+
+37:22.000 --> 37:22.100
+Okay.
+
+37:22.260 --> 37:24.340
+Consider a simple low-stakes decision.
+
+37:24.340 --> 37:27.720
+Like, I am deciding whether to carry an umbrella when I leave the house.
+
+37:28.300 --> 37:29.980
+That is a highly reversible decision.
+
+37:30.280 --> 37:33.540
+If I'm wrong and it doesn't rain, I just carry a light stick around for an hour.
+
+37:33.820 --> 37:36.120
+It costs you almost nothing to reverse the mistake.
+
+37:36.320 --> 37:36.660
+Exactly.
+
+37:37.300 --> 37:40.540
+So, the reversibility parameter, rho, is very high.
+
+37:41.120 --> 37:46.660
+Because it's easily reversible, the math says the threshold for action, P star, is incredibly low.
+
+37:47.200 --> 37:49.720
+I will act on tiny, flimsy evidence.
+
+37:50.360 --> 37:52.960
+I'll look at one slightly dark cloud and grab the umbrella.
+
+37:52.960 --> 37:54.140
+I don't need certainty.
+
+37:54.560 --> 37:54.780
+Yes.
+
+37:55.320 --> 38:02.280
+The math states that if an action is highly reversible, you are perfectly justified in acting before the claim is even decidable.
+
+38:02.740 --> 38:06.360
+You can leap before you look because climbing back up is easy.
+
+38:06.900 --> 38:12.940
+But if I'm deciding to get a permanent tattoo across my forehead, the reversibility is basically zero.
+
+38:13.560 --> 38:17.820
+The expected harm, if I get it wrong, or if I misspell it, is massive.
+
+38:18.020 --> 38:18.620
+Huge harm.
+
+38:18.820 --> 38:21.820
+So, the threshold shoots up to basically 100%.
+
+38:21.820 --> 38:26.100
+The action is only justified after the claim is totally decidable.
+
+38:26.100 --> 38:30.520
+I need rock-solid, mature evidence that this is a good idea.
+
+38:30.820 --> 38:32.440
+That's exactly how the gate functions.
+
+38:32.880 --> 38:33.180
+But wait.
+
+38:33.660 --> 38:36.700
+This model assumes that waiting for evidence is safe.
+
+38:37.260 --> 38:40.600
+What about that other parameter, kappa, the cost of delay?
+
+38:40.600 --> 38:44.040
+What if waiting to act is the irreversible harm?
+
+38:44.760 --> 38:50.820
+This is where the model earns its keep, because it mathematically maps out exactly that agonizing edge case.
+
+38:50.820 --> 38:52.760
+Let's take a medical example.
+
+38:53.240 --> 38:53.520
+Okay.
+
+38:53.520 --> 38:56.260
+Imagine a disease with a very long latency period.
+
+38:56.640 --> 39:02.780
+The latency of evidence is long, meaning it takes years to get good, solid data on whether the treatment works or not.
+
+39:02.920 --> 39:03.100
+Right.
+
+39:03.440 --> 39:07.140
+And the intervention, the treatment itself, is highly irreversible.
+
+39:07.680 --> 39:13.200
+According to the strict reversibility gate, the math says you should not act because you don't have mature evidence.
+
+39:13.500 --> 39:18.220
+But while you wait for the evidence to mature, the patient is accumulating irreversible harm.
+
+39:18.220 --> 39:25.900
+So the system paralyzes itself, the gate stays shut, and the patient suffers because the system demands certainty it can't have.
+
+39:26.000 --> 39:26.240
+Wow.
+
+39:26.560 --> 39:26.920
+Exactly.
+
+39:27.700 --> 39:31.400
+Unless you factor in kappa, the cost of inaction.
+
+39:31.760 --> 39:32.700
+The kappa parameter.
+
+39:33.060 --> 39:33.360
+Yes.
+
+39:33.980 --> 39:42.260
+The parameter kappa is the only mathematical force in this entire schema that can forcefully push the gate open in the absence of mature evidence.
+
+39:42.580 --> 39:44.500
+It overrides the need for certainty.
+
+39:44.500 --> 39:50.640
+The text explicitly warns against the human illusion that inaction is a costless, neutral state.
+
+39:51.160 --> 39:53.980
+Delay is itself an irreversible action.
+
+39:54.400 --> 39:57.600
+Because every second you wait, the universe generates entropy.
+
+39:58.020 --> 39:58.980
+Time moves forward.
+
+39:59.500 --> 40:02.740
+You are committing a distinction to history just by standing still.
+
+40:03.300 --> 40:04.600
+You can't pause the universe.
+
+40:04.600 --> 40:14.260
+So within the strict, hash-linked architecture of SpherePop, if you are an agent trying to make a decision, can you force the gate open?
+
+40:14.720 --> 40:17.500
+Can you act without evidence if the cost of delay is too high?
+
+40:17.720 --> 40:18.100
+You can.
+
+40:18.820 --> 40:22.020
+The author includes a corollary covering gated commitment.
+
+40:22.480 --> 40:26.900
+The system allows you to waive the evidentiary obligation and override the threshold.
+
+40:27.260 --> 40:27.580
+But?
+
+40:27.580 --> 40:33.320
+But, and this is the absolute crux of the philosophy, it is a logged, committed act.
+
+40:33.680 --> 40:36.660
+The system records permanently that you overrode the gate.
+
+40:36.980 --> 40:39.060
+You must own the override.
+
+40:39.760 --> 40:40.280
+That is brilliant.
+
+40:40.900 --> 40:45.560
+It doesn't physically stop you from leaping blind, but it forces you to sign a receipt saying,
+
+40:45.920 --> 40:49.560
+I am leaping without evidence, and I take responsibility for the fall.
+
+40:50.120 --> 40:50.440
+Yes.
+
+40:50.440 --> 40:52.780
+It holds you accountable to the history you're writing.
+
+40:53.280 --> 40:56.040
+You can't pretend three years later that you had the evidence all along.
+
+40:56.400 --> 40:58.360
+The ledger proves you acted on a waiver.
+
+40:58.840 --> 41:01.120
+And that brings us to the synthesis of the entire monograph.
+
+41:01.800 --> 41:06.880
+It really is a master class in tying seemingly disconnected fields together.
+
+41:07.340 --> 41:08.140
+It truly is.
+
+41:08.600 --> 41:12.260
+What this author has done is take one core, unshakable idea,
+
+41:12.640 --> 41:15.700
+that every time a system merges states and forgets a distinction,
+
+41:16.340 --> 41:18.840
+a permanent, irreversible step is taken.
+
+41:18.840 --> 41:22.380
+And they rigorously applied it to everything.
+
+41:23.000 --> 41:23.280
+Everything.
+
+41:24.000 --> 41:29.160
+The universe generates the arrow of time by aggressively forgetting microscopic distinctions.
+
+41:29.760 --> 41:32.540
+Computer operating systems manage catastrophic failure
+
+41:32.540 --> 41:36.100
+by meticulously isolating where distinctions are allowed to merge.
+
+41:36.700 --> 41:39.380
+The human memory hallucinates a narrative of continuity
+
+41:39.380 --> 41:43.320
+because it was forced to compress distinctions just to fit inside a skull.
+
+41:43.740 --> 41:47.120
+And decision theory is just the math of figuring out exactly
+
+41:47.120 --> 41:52.280
+when it's safe to merge a distinction in a world where you can never, ever go back.
+
+41:52.280 --> 41:55.280
+The rules of admissibility are universal constraints.
+
+41:55.920 --> 41:57.600
+You can only commit what you can verify,
+
+41:58.260 --> 42:01.920
+and you can only verify what you can actually construct within your physical limits.
+
+42:02.480 --> 42:03.760
+But there is one final thought,
+
+42:04.160 --> 42:08.400
+one last provocation in the text that we have to talk about before we go.
+
+42:08.920 --> 42:09.740
+Oh, this part.
+
+42:10.120 --> 42:10.420
+Yes.
+
+42:10.780 --> 42:13.580
+It's something that fundamentally shook my understanding of myself.
+
+42:14.140 --> 42:16.720
+It's the philosophical implications for identity,
+
+42:17.060 --> 42:19.140
+particularly in systems that branch.
+
+42:19.140 --> 42:21.780
+Yes, the limits of the account.
+
+42:22.820 --> 42:26.380
+We defined identity earlier through the lens of demonstrable continuity.
+
+42:27.020 --> 42:31.100
+You are considered you because there is an evidenced, admissible,
+
+42:31.500 --> 42:35.960
+unbroken chain of historical transitions from the you of yesterday to the you of today.
+
+42:36.120 --> 42:37.700
+It's a continuous line.
+
+42:38.260 --> 42:40.240
+But what happens if that line branches?
+
+42:41.180 --> 42:43.220
+We don't deal with this in biology much,
+
+42:43.320 --> 42:45.880
+but in digital systems we branch things all the time.
+
+42:45.880 --> 42:47.160
+We fork code bases.
+
+42:47.620 --> 42:48.580
+We copy files.
+
+42:49.540 --> 42:50.980
+Imagine a thought experiment.
+
+42:52.040 --> 42:54.560
+A teleporter malfunction that perfectly duplicates you.
+
+42:55.320 --> 42:59.220
+Or, 50 years from now, a fork in a digital consciousness upload.
+
+42:59.780 --> 43:03.800
+You step into the machine, and suddenly there is clone A and clone B.
+
+43:04.440 --> 43:07.280
+It completely breaks the underlying math of identity.
+
+43:07.740 --> 43:08.400
+And here is why.
+
+43:08.400 --> 43:14.960
+If you are perfectly duplicated, clone A and clone B both possess a perfectly evidenced,
+
+43:15.220 --> 43:20.720
+mathematically sound, hash-linked history stretching all the way back to the original person.
+
+43:20.840 --> 43:24.540
+They both have a legitimate claim to demonstrable continuity.
+
+43:24.740 --> 43:24.900
+Right.
+
+43:25.040 --> 43:28.760
+Because you can trace A back to the origin, and you can trace B back to the origin.
+
+43:29.440 --> 43:33.520
+But, and this is the fatal flaw, they do not have a history to each other.
+
+43:33.820 --> 43:34.300
+Wow.
+
+43:34.300 --> 43:39.600
+Because to trace a line from clone A to clone B, you would have to trace A's history backward
+
+43:39.600 --> 43:42.500
+to the moment of the split, and then forward to B.
+
+43:42.660 --> 43:46.640
+And going backward violates the fundamental law of irreversibility.
+
+43:46.820 --> 43:47.480
+You cannot go backward.
+
+43:47.700 --> 43:48.080
+Exactly.
+
+43:48.940 --> 43:54.240
+In mathematical terms, the directed relationship remains transitive, but it is no longer symmetric.
+
+43:55.060 --> 43:59.480
+The mathematical relation of being the same entity as completely breaks down
+
+43:59.480 --> 44:01.680
+the moment a system is capable of branching.
+
+44:01.680 --> 44:08.600
+If a system can branch, the very concept of the single unified you might just be a mathematical
+
+44:08.600 --> 44:09.080
+illusion.
+
+44:09.780 --> 44:14.300
+It's an illusion born entirely from the fact that biological constraints haven't allowed
+
+44:14.300 --> 44:15.800
+us to clone ourselves yet.
+
+44:16.240 --> 44:21.580
+We think we have a persistent self because we've never been forced to confront a fork in our own
+
+44:21.580 --> 44:22.660
+historical log.
+
+44:23.040 --> 44:23.480
+Exactly.
+
+44:24.420 --> 44:30.280
+Once we do, identity as a rigid concept might just evaporate into a decentralized network of
+
+44:30.280 --> 44:30.560
+branches.
+
+44:30.560 --> 44:31.940
+You aren't a person.
+
+44:32.380 --> 44:35.140
+You're just a temporary node in a propagating history.
+
+44:35.600 --> 44:39.260
+I want you, the listener, to just let that simmer for a bit today.
+
+44:39.860 --> 44:45.780
+It forces us to realize that our deepest, most cherished definitions of self are entirely reliant
+
+44:45.780 --> 44:49.160
+on the accidental physical constraints we currently live under.
+
+44:49.700 --> 44:50.480
+Remove the constraint.
+
+44:51.120 --> 44:52.000
+You remove the self.
+
+44:52.000 --> 44:59.220
+From furious email drafts and medical x-rays to the heat death of the universe and the mathematical
+
+44:59.220 --> 45:02.580
+illusion of the self, we covered some serious ground today.
+
+45:02.960 --> 45:03.520
+We really did.
+
+45:04.000 --> 45:08.040
+Thank you for joining us on this deep dive into distinction under constraint.
+
+45:08.520 --> 45:13.920
+Keep questioning the distinctions you commit to history because once they're logged, well,
+
+45:13.920 --> 45:15.320
+they are there for good.
+
+45:15.700 --> 45:16.420
+Catch you next time.
+

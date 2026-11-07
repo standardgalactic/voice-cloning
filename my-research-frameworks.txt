@@ -7,7 +7,7 @@ through which they become distinguishable and operationally meaningful. Several 
 frameworks have emerged from this research. RSVP, Relativistic Scalar-Vector-Entropy Plenum.
 My RSVP framework is an attempt to develop a constraint-first account of physical reality
 using three interacting quantities, scalar capacity phi, vector flow v, and entropy
-self. Rather than beginning with particles moving through a pre-existing spacetime, I investigate
+ S. Rather than beginning with particles moving through a pre-existing spacetime, I investigate
 how physical structure, motion, and temporal ordering might emerge from the dynamics of
 a continuous plenum. A central proposition is that time should be understood through irreversible
 transformation and entropy production, rather than assumed to be an independent background
